@@ -22,16 +22,11 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <!-- Custom styles for this theme -->
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/my.css">
-    <!-- Vector Map  -->
-    <link rel="stylesheet" href="assets/plugins/jvectormap/css/jquery-jvectormap-1.2.2.css">
-    <!-- ToDos  -->
-    <link rel="stylesheet" href="assets/plugins/todo/css/todos.css">
-    <!-- Morris  -->
-    <link rel="stylesheet" href="assets/plugins/morris/css/morris.css">
+    <!-- DataTables-->
+    <link rel="stylesheet" href="assets/plugins/dataTables/css/dataTables.css">
     <!-- Fonts -->
     <!-- <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'> -->
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'> -->
     <!-- Feature detection -->
     <script src="assets/js/modernizr-2.6.2.min.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -168,33 +163,48 @@
                 </ul>
             </div>
         </header>
-        <!--sidebar left start-->
+        <!--sidebar start-->
         <aside class="sidebar">
             <div id="leftside-navigation" class="nano">
                 <ul class="nano-content">
-                    <li class="active">
-                        <a href="index.html"><i class="fa fa-dashboard"></i><span>店铺信息</span></a>
+                    <li>
+                        <a href="index.html"><i class="fa fa-dashboard"></i><span>Dashboard</span></a>
                     </li>
                     <li class="sub-menu">
-                        <a href="javascript:void(0);"><i class="fa fa-cogs"></i><span>订单管理</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+                        <a href="javascript:void(0);"><i class="fa fa-cogs"></i><span>UI Elements</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                         <ul>
 
-                            <!-- <li><a href="ui-alerts-notifications.html">订单列表</a> -->
-                            <li><a href="Myorderlist.html">订单列表</a>
+                            <li><a href="ui-alerts-notifications.html">Alerts &amp; Notifications</a>
+                            </li>
+                            <li><a href="ui-panels.html">Panels</a>
+                            </li>
+                            <li><a href="ui-buttons.html">Buttons</a>
+                            </li>
+                            <li><a href="ui-slider-progress.html">Sliders &amp; Progress</a>
+                            </li>
+                            <li><a href="ui-modals-popups.html">Modals &amp; Popups</a>
+                            </li>
+                            <li><a href="ui-icons.html">Icons</a>
+                            </li>
+                            <li><a href="ui-grid.html">Grid</a>
+                            </li>
+                            <li><a href="ui-tabs-accordions.html">Tabs &amp; Accordions</a>
+                            </li>
+                            <li><a href="ui-nestable-list.html">Nestable Lists</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="sub-menu">
-                        <a href="javascript:void(0);"><i class="fa fa-table"></i><span>分类管理</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+                    <li class="sub-menu active">
+                        <a href="javascript:void(0);"><i class="fa fa-table"></i><span>Tables</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                         <ul>
-                            <li><a href="tables-basic.html">Basic Tables</a>
+                            <li><a href="tables-basic.html">订单管理</a>
                             </li>
-                            <li><a href="tables-data.html">Data Tables</a>
+                            <li class="active"><a href="tables-data.html">订单列表</a>
                             </li>
                         </ul>
                     </li>
                     <li class="sub-menu">
-                        <a href="javascript:void(0);"><i class="fa fa fa-tasks"></i><span>菜品管理</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+                        <a href="javascript:void(0);"><i class="fa fa fa-tasks"></i><span>Forms</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                         <ul>
                             <li><a href="forms-components.html">Components</a>
                             </li>
@@ -265,111 +275,87 @@
             </div>
 
         </aside>
-        <!--sidebar left end-->
+        <!--sidebar end-->
         <!--main content start-->
         <section class="main-content-wrapper">
             <section id="main-content">
-                <!-- 商家头 -->
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="panel panel-info">
+                        <!--breadcrumbs start -->
+                        <ul class="breadcrumb">
+                            <li><a href="#">订单管理</a>
+                            </li>
+                            <li class="active">订单列表</li>
+                            <!-- <li class="active">我的活动</li> -->
+                        </ul>
+                        <!--breadcrumbs end -->
+                        <h1 class="h1">订单列表</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title">台湾卤肉饭</h3>
+                                <h3 class="panel-title">订单列表</h3>
                                 <div class="actions pull-right">
                                     <i class="fa fa-chevron-down"></i>
                                     <i class="fa fa-times"></i>
                                 </div>
                             </div>
                             <div class="panel-body">
-                                台湾卤肉饭内容简介台湾卤肉饭内容简介台湾卤肉饭内容简介台湾卤肉饭内容简介台湾卤肉饭内容简介台湾卤肉饭内容简介台湾卤肉饭内容简介台湾卤肉饭内容简介台湾卤肉饭内容简介
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--tiles start-->
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-red">
-                            <div class="content">
-                                <h1 class="text-left timer" data-from="0" data-to="180" data-speed="2500"></h1>
-                                <p class="myfont">今日订单数</p>
-                            </div>
-                            <div class="icon"><i class="fa fa-users"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-turquoise">
-                            <div class="content">
-                                <h1 class="text-left timer" data-from="0" data-to="7582" data-speed="2500"></h1>
-                                <p class="myfont">今日销售额</p>
-                            </div>
-                            <div class="icon"><i class="fa fa-comments"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-blue">
-                            <div class="content">
-                                <h1 class="text-left timer" data-from="0" data-to="2348" data-speed="2500"></h1>
-                                <p class="myfont">月订单数</p>
-                            </div>
-                            <div class="icon"><i class="fa fa fa-envelope"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-purple">
-                            <div class="content">
-                                <h1 class="text-left timer" data-to="478325" data-speed="2500"></h1>
-                                <p class="myfont">月销售额</p>
-                            </div>
-                            <div class="icon"><i class="fa fa-bar-chart-o"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--tiles end-->
-                <!--dashboard charts and map start-->
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">销售额/月</h3>
-                                <div class="actions pull-right">
-                                    <i class="fa fa-chevron-down"></i>
-                                    <i class="fa fa-times"></i>
-                                </div>
-                            </div>
-                            <!-- <div class="panel-body">
-                                <div id="sales-chart" style="height: 250px;"></div>
-                            </div> -->
-                            <div style="width:100%;">
-                                <canvas id="canvas2"></canvas>
-                            </div>
+                                <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>订单号</th>
+                                            <th>订单时间</th>
+                                            <th>客户姓名</th>
+                                            <th>客服电话</th>
+                                            <th>送货地址</th>
+                                            <th>订单操作</th>
+                                        </tr>
+                                    </thead>
 
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <h4>商品类别销售比例</h4>
-                               <!--  <div id="donut-example"></div> -->
-                                   <div id="canvas-holder" style="width:100%">
-                                        <canvas id="chart-area" />
-                                    </div>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>1234567654323456</td>
+                                            <td>2016-06-20</td>
+                                            <td>淫淫</td>
+                                            <td>47585937294</td>
+                                            <td>上海市闸北区万荣路1188弄</td>
+                                            <td>
+                                                <button class="btn btn-warning" type="button">确认订单</button>
+                                                <button class="btn btn-danger" type="button">拒绝订单</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>1234567654323456</td>
+                                            <td>2016-06-20</td>
+                                            <td>淫淫</td>
+                                            <td>47585937294</td>
+                                            <td>上海市闸北区万荣路1188弄</td>
+                                            <td>
+                                                <button class="btn btn-warning" type="button">确认订单</button>
+                                                <button class="btn btn-danger" type="button">拒绝订单</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!--ToDo end-->
             </section>
         </section>
         <!--main content end-->
         <!--sidebar right start-->
         <aside class="sidebarRight">
-            <div id="rightside-navigation ">
+            <div id="rightside-navigation">
                 <div class="sidebar-heading"><i class="fa fa-user"></i> Contacts</div>
                 <div class="sidebar-title">online</div>
                 <div class="list-contacts">
@@ -456,203 +442,16 @@
     <script src="assets/js/jquery-1.10.2.min.js"></script>
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/plugins/waypoints/waypoints.min.js"></script>
+    <script src="assets/plugins/nanoScroller/jquery.nanoscroller.min.js"></script>
     <script src="assets/js/application.js"></script>
-    <!--Page Level JS-->
-    <script src="assets/plugins/countTo/jquery.countTo.js"></script>
-    <script src="assets/plugins/weather/js/skycons.js"></script>
-    <!-- FlotCharts  -->
-    <script src="assets/plugins/flot/js/jquery.flot.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.flot.resize.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.flot.canvas.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.flot.image.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.flot.categories.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.flot.crosshair.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.flot.errorbars.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.flot.fillbetween.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.flot.navigate.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.flot.pie.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.flot.selection.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.flot.stack.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.flot.symbol.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.flot.threshold.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.colorhelpers.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.flot.time.min.js"></script>
-    <script src="assets/plugins/flot/js/jquery.flot.example.js"></script>
-    <script src="assets/plugins/flot/js/Chart.bundle.js"></script>
-
-    <!-- Morris  -->
-    <script src="assets/plugins/morris/js/morris.min.js"></script>
-    <script src="assets/plugins/morris/js/raphael.2.1.0.min.js"></script>
-    <!-- Vector Map  -->
-    <script src="assets/plugins/jvectormap/js/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="assets/plugins/jvectormap/js/jquery-jvectormap-world-mill-en.js"></script>
-    <!-- ToDo List  -->
-    <script src="assets/plugins/todo/js/todos.js"></script>
-    <!--Load these page level functions-->
-    <style>
-        canvas {
-            -moz-user-select: none;
-            -webkit-user-select: none;
-            -ms-user-select: none;
-
-        }
-    </style>
-    <script>
-        var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-        var randomScalingFactor = function() {
-            return Math.round(Math.random() * 100 * (Math.random() > 0.5 ? -1 : 1));
-        };
-        var randomColorFactor = function() {
-            return Math.round(Math.random() * 255);
-        };
-        var randomColor = function(opacity) {
-            return 'rgba(' + randomColorFactor() + ',' + randomColorFactor() + ',' + randomColorFactor() + ',' + (opacity || '.3') + ')';
-        };
-
-        var config1 = {
-            type: 'line',
-            data: {
-                labels: ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],
-                datasets: [{
-                    label: "销售额",
-                    // data: [randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor()],
-                    data: [100,130,150,170,150,180,200,205,250,280,300,310],
-                    lineTension: 0,
-                    fill: false,
-                    //borderDash: [5, 5],
-                }]
-            },
-            options: {
-                responsive: true,
-                legend: {
-                    position: 'bottom',
-                },
-                hover: {
-                    mode: 'label'
-                },
-                scales: {
-                    xAxes: [{
-                        display: true,
-                        scaleLabel: {
-                            display: true,
-                            labelString: '月份'
-                        }
-                    }],
-                    yAxes: [{
-                        display: true,
-                        scaleLabel: {
-                            display: true,
-                            labelString: '金额'
-                        }
-                    }]
-                },
-                title: {
-                    display: true,
-                    text: '2016年销售额折线图'
-                }
-            }
-        };
-
-        $.each(config1.data.datasets, function(i, dataset) {
-            var background = randomColor(0.5);
-            dataset.borderColor = 'rgba(26,188,156,1)';
-            dataset.backgroundColor = 'rgba(26,188,156,1)';
-            // dataset.borderColor = background;
-            // dataset.backgroundColor = background;
-            // dataset.pointBorderColor = background;
-            // dataset.pointBackgroundColor = background;
-            dataset.pointBorderColor =  'rgba(26,188,156,1)';
-            dataset.pointBackgroundColor =  'rgba(255,255,255,1)';
-            dataset.pointBorderWidth = 3;
-        });
-
-        // window.onload = function() {
-        //     var ctx1 = document.getElementById("canvas2").getContext("2d");
-        //     window.myLine = new Chart(ctx1, config);
-        // };
-    </script>
-    <!-- <style>
-    canvas {
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select: none;
-    }
-    </style> -->
+    <!--Page Leve JS -->
+    <script src="assets/plugins/dataTables/js/jquery.dataTables.js"></script>
+    <script src="assets/plugins/dataTables/js/dataTables.bootstrap.js"></script>
     <script>
     $(document).ready(function() {
-        app.timer();
-        app.map();
-        app.weather();
-        app.morrisPie();
-
+        $('#example').dataTable();
     });
-    </script>  
-    <script>
-
-    // var randomScalingFactor = function() {
-    //     return Math.round(Math.random() * 100);
-    // };
-    // var randomColorFactor = function() {
-    //     return Math.round(Math.random() * 255);
-    // };
-    // var randomColor = function(opacity) {
-    //     return 'rgba(' + randomColorFactor() + ',' + randomColorFactor() + ',' + randomColorFactor() + ',' + (opacity || '.3') + ')';
-    // };
-
-    var config = {
-        type: 'doughnut',
-        data: {
-            datasets: [{
-                data: [
-                    200,
-                    213,
-                    234,
-                    88,
-                    534,
-                ],
-                backgroundColor: [
-                    "#F7464A",
-                    "#46BFBD",
-                    "#FDB45C",
-                    "#949FB1",
-                    "#4D5360",
-                ],
-                label: 'Dataset 1'
-            }],
-            labels: [
-                "套餐",
-                "单点",
-                "精品",
-                "汤类",
-                "甜点"
-            ]
-        },
-        options: {
-            responsive: true,
-            legend: {
-                position: 'top',
-            },
-            title: {
-                display: true,
-                text: ''
-            },
-            animation: {
-                animateScale: true,
-                animateRotate: true
-            }
-        }
-    };
-
-    window.onload = function() {
-        var ctx = document.getElementById("chart-area").getContext("2d");
-        window.myDoughnut = new Chart(ctx, config);
-
-        var ctx1 = document.getElementById("canvas2").getContext("2d");
-            window.myLine = new Chart(ctx1, config1);
-
-    };
-
-    </script> 
+    </script>
 
 </body>
 
