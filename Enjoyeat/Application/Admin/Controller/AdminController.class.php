@@ -4,7 +4,7 @@ use Think\Controller;
 
 class AdminController extends Controller{
 
-
+	
 
 
 

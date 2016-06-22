@@ -33,7 +33,10 @@ class PublicController extends AdminController{
 	
 
 	}
-
+	public function doLogout(){
+		unset($_SESSION['user_info']);
+		$this->redirect('Public/login');
+	}
 		
 
 }
