@@ -1,8 +1,8 @@
 <?php
 namespace Admin\Controller;
-use \Think\Controller;
+
 //促销活动
-class ActivityController extends Controller{
+class ActivityController extends AdminController{
 	
 	public function index(){
 		$this->assign('title','活动列表');

@@ -1,8 +1,7 @@
 <?php
 namespace Admin\Controller;
-use Think\Controller;
 //用户信息
-class UserController extends Controller {
+class UserController extends AdminController {
 
     public function index(){
     	$this->assign('title','用户列表');
