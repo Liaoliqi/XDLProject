@@ -204,7 +204,7 @@
         <!-- ngIf: !noGlobalWrap -->
       	<header class="account-header ng-scope" ng-if="!noGlobalWrap">
 			<a href="http://www.ele.me">
-				<h1 class="logo icon icon-fulllogo"></h1>
+				<img src="" alt="">
 			</a>
 		</header>
         <!-- ngView:  -->
