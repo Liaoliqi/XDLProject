@@ -1,8 +1,9 @@
 <?php
 
 namespace Admin\Controller;
+use Think\Controller;
+class PublicController extends Controller{
 
-class PublicController extends AdminController{
 	public function login()
 	{
 		$this->display();
