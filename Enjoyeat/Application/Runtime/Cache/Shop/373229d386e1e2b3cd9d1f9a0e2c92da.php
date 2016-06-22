@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -13,34 +13,34 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <!-- Favicon -->
-    <link rel="shortcut icon" href="__PUBLIC__/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/dev/XDLProject/Enjoyeat/Public/assets/img/favicon.ico" type="image/x-icon">
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="__PUBLIC__/assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Fonts from Font Awsome -->
-    <link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/assets/css/font-awesome.min.css">
     <!-- CSS Animate -->
-    <link rel="stylesheet" href="__PUBLIC__/assets/css/animate.css">
+    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/assets/css/animate.css">
     <!-- Custom styles for this theme -->
-    <link rel="stylesheet" href="__PUBLIC__/assets/css/main.css">
-    <link rel="stylesheet" href="__PUBLIC__/assets/css/my.css">
+    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/assets/css/main.css">
+    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/assets/css/my.css">
     <!-- Vector Map  -->
-    <link rel="stylesheet" href="__PUBLIC__/assets/plugins/jvectormap/css/jquery-jvectormap-1.2.2.css">
+    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/assets/plugins/jvectormap/css/jquery-jvectormap-1.2.2.css">
     <!-- ToDos  -->
-    <link rel="stylesheet" href="__PUBLIC__/assets/plugins/todo/css/todos.css">
+    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/assets/plugins/todo/css/todos.css">
     <!-- Morris  -->
-    <link rel="stylesheet" href="__PUBLIC__/assets/plugins/morris/css/morris.css">
+    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/assets/plugins/morris/css/morris.css">
     <!-- Fonts -->
     <!-- <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'> -->
     <!-- Feature detection -->
-    <script src="__PUBLIC__/assets/js/modernizr-2.6.2.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/js/modernizr-2.6.2.min.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="__PUBLIC__/assets/js/html5shiv.js"></script>
-    <script src="__PUBLIC__/assets/js/respond.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/js/html5shiv.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/js/respond.min.js"></script>
     <![endif]-->
-    <block name='src'>
-    </block>
+    
+    
 </head>
 
 <body>
@@ -49,7 +49,7 @@
             <!--logo start-->
             <div class="brand">
                 <a href="index.html" class="logo">
-                    <span>享吃商家平台</span></a>
+                    <span>Space</span>Lab</a>
             </div>
             <!--logo end-->
             <div class="toggle-navigation toggle-left">
@@ -72,7 +72,7 @@
                             <li>
                                 <a href="#">
                                     <div class="profile-photo">
-                                        <img src="__PUBLIC__/assets/img/avatar.gif" alt="" class="img-circle">
+                                        <img src="/dev/XDLProject/Enjoyeat/Public/assets/img/avatar.gif" alt="" class="img-circle">
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">James Bagian</span>
@@ -85,7 +85,7 @@
                             <li>
                                 <a href="#">
                                     <div class="profile-photo">
-                                        <img src="__PUBLIC__/assets/img/avatar1.gif" alt="" class="img-circle">
+                                        <img src="/dev/XDLProject/Enjoyeat/Public/assets/img/avatar1.gif" alt="" class="img-circle">
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">Jeffrey Ashby</span>
@@ -98,7 +98,7 @@
                             <li>
                                 <a href="#">
                                     <div class="profile-photo">
-                                        <img src="__PUBLIC__/assets/img/avatar2.gif" alt="" class="img-circle">
+                                        <img src="/dev/XDLProject/Enjoyeat/Public/assets/img/avatar2.gif" alt="" class="img-circle">
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">John Douey</span>
@@ -111,7 +111,7 @@
                             <li>
                                 <a href="#">
                                     <div class="profile-photo">
-                                        <img src="__PUBLIC__/assets/img/avatar3.gif" alt="" class="img-circle">
+                                        <img src="/dev/XDLProject/Enjoyeat/Public/assets/img/avatar3.gif" alt="" class="img-circle">
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">Ellen Baker</span>
@@ -123,7 +123,7 @@
                             <li>
                                 <a href="#">
                                     <div class="profile-photo">
-                                        <img src="__PUBLIC__/assets/img/avatar4.gif" alt="" class="img-circle">
+                                        <img src="/dev/XDLProject/Enjoyeat/Public/assets/img/avatar4.gif" alt="" class="img-circle">
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">Ivan Bella</span>
@@ -138,7 +138,7 @@
 
                     </li>
                     <li class="profile-photo">
-                        <img src="__PUBLIC__/assets/img/avatar.png" alt="" class="img-circle">
+                        <img src="/dev/XDLProject/Enjoyeat/Public/assets/img/avatar.png" alt="" class="img-circle">
                     </li>
                     <li class="dropdown settings">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -175,44 +175,44 @@
             <div id="leftside-navigation" class="nano">
                 <ul class="nano-content">
                     <li class="active">
-                        <a href="<{:U('Index/index')}>"><i class="fa fa-dashboard"></i><span>店铺信息</span></a>
+                        <a href="<?php echo U('Index/index');?>"><i class="fa fa-dashboard"></i><span>店铺信息</span></a>
                     </li>
                     <li class="sub-menu">
                         <a href="javascript:void(0);"><i class="fa fa-cogs"></i><span>订单管理</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                         <ul <?=((CONTROLLER_NAME == 'Order')?"style='display:block'":"")?>>
 
                             <!-- <li><a href="ui-alerts-notifications.html">订单列表</a> -->
-                            <li <?=((CONTROLLER_NAME == 'Order' && ACTION_NAME == 'index')?"class='active'":"")?>><a href="<{:U('Order/index')}>">订单列表</a>
+                            <li <?=((CONTROLLER_NAME == 'Order' && ACTION_NAME == 'index')?"class='active'":"")?>><a href="<?php echo U('Order/index');?>">订单列表</a>
                             </li>
                         </ul>
                     </li>
                     <li class="sub-menu">
                         <a href="javascript:void(0);"><i class="fa fa-table"></i><span>分类管理</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                         <ul <?=((CONTROLLER_NAME == 'Classify')?"style='display:block'":"")?>>
-                            <li <?=((CONTROLLER_NAME == 'Classify' && ACTION_NAME == 'index')?"class='active'":"")?>><a href="<{:U('Classify/index')}>">分类列表</a>
+                            <li <?=((CONTROLLER_NAME == 'Classify' && ACTION_NAME == 'index')?"class='active'":"")?>><a href="<?php echo U('Classify/index');?>">分类列表</a>
                             </li>
                         </ul>
                     </li>
                     <li class="sub-menu">
                         <a href="javascript:void(0);"><i class="fa fa fa-tasks"></i><span>菜品管理</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                         <ul <?=((CONTROLLER_NAME == 'Goodsify')?"style='display:block'":"")?>>
-                            <li <?=((CONTROLLER_NAME == 'Goodsify' && ACTION_NAME == 'index')?"class='active'":"")?>><a href="<{:U('Goodsify/index')}>">菜品列表</a>
+                            <li <?=((CONTROLLER_NAME == 'Goodsify' && ACTION_NAME == 'index')?"class='active'":"")?>><a href="<?php echo U('Goodsify/index');?>">菜品列表</a>
                             </li>
                         </ul>
                     </li>
                     <li class="sub-menu">
                         <a href="javascript:void(0);"><i class="fa fa-envelope"></i><span>活动推广</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                         <ul <?=((CONTROLLER_NAME == 'Activity')?"style='display:block'":"")?>>
-                            <li <?=((CONTROLLER_NAME == 'Activity' && ACTION_NAME == 'myactivity')?"class='active'":"")?>><a href="<{:U('Activity/myactivity')}>">我的活动</a>
+                            <li <?=((CONTROLLER_NAME == 'Activity' && ACTION_NAME == 'myactivity')?"class='active'":"")?>><a href="<?php echo U('Activity/myactivity');?>">我的活动</a>
                             </li>
-                            <li <?=((CONTROLLER_NAME == 'Activity' && ACTION_NAME == 'activityInfo')?"class='active'":"")?>><a href="<{:U('Activity/activityInfo')}>">活动信息</a>
+                            <li <?=((CONTROLLER_NAME == 'Activity' && ACTION_NAME == 'activityInfo')?"class='active'":"")?>><a href="<?php echo U('Activity/activityInfo');?>">活动信息</a>
                             </li>
                         </ul>
                     </li>
                     <li class="sub-menu">
                         <a href="javascript:void(0);"><i class="fa fa-bar-chart-o"></i><span>评论管理</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                         <ul <?=((CONTROLLER_NAME == 'Evaluate')?"style='display:block'":"")?>>
-                            <li <?=((CONTROLLER_NAME == 'Evaluate' && ACTION_NAME == 'index')?"class='active'":"")?>><a href="<{:U('Evaluate/index')}>">评论列表</a>
+                            <li <?=((CONTROLLER_NAME == 'Evaluate' && ACTION_NAME == 'index')?"class='active'":"")?>><a href="<?php echo U('Evaluate/index');?>">评论列表</a>
                             </li>
 
                         </ul>
@@ -225,146 +225,54 @@
         <!--main content start-->
         <section class="main-content-wrapper">
             <section id="main-content">
-<block name="content">
-                <!-- 商家头 -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="panel panel-info">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">台湾卤肉饭</h3>
-                                <div class="actions pull-right">
-                                    <i class="fa fa-chevron-down"></i>
-                                    <i class="fa fa-times"></i>
-                                </div>
-                            </div>
-                            <div class="panel-body">
-                                台湾卤肉饭内容简介台湾卤肉饭内容简介台湾卤肉饭内容简介台湾卤肉饭内容简介台湾卤肉饭内容简介台湾卤肉饭内容简介台湾卤肉饭内容简介台湾卤肉饭内容简介台湾卤肉饭内容简介
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--tiles start-->
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-red">
-                            <div class="content">
-                                <h1 class="text-left timer" data-from="0" data-to="180" data-speed="2500"></h1>
-                                <p class="myfont">今日订单数</p>
-                            </div>
-                            <div class="icon"><i class="fa fa-users"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-turquoise">
-                            <div class="content">
-                                <h1 class="text-left timer" data-from="0" data-to="7582" data-speed="2500"></h1>
-                                <p class="myfont">今日销售额</p>
-                            </div>
-                            <div class="icon"><i class="fa fa-comments"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-blue">
-                            <div class="content">
-                                <h1 class="text-left timer" data-from="0" data-to="2348" data-speed="2500"></h1>
-                                <p class="myfont">月订单数</p>
-                            </div>
-                            <div class="icon"><i class="fa fa fa-envelope"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-purple">
-                            <div class="content">
-                                <h1 class="text-left timer" data-to="478325" data-speed="2500"></h1>
-                                <p class="myfont">月销售额</p>
-                            </div>
-                            <div class="icon"><i class="fa fa-bar-chart-o"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--tiles end-->
-                <!--dashboard charts and map start-->
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">销售额/月</h3>
-                                <div class="actions pull-right">
-                                    <i class="fa fa-chevron-down"></i>
-                                    <i class="fa fa-times"></i>
-                                </div>
-                            </div>
-                            <!-- <div class="panel-body">
-                                <div id="sales-chart" style="height: 250px;"></div>
-                            </div> -->
-                            <div style="width:100%;">
-                                <canvas id="canvas2"></canvas>
-                            </div>
 
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <h4>商品类别销售比例</h4>
-                               <!--  <div id="donut-example"></div> -->
-                                   <div id="canvas-holder" style="width:100%">
-                                        <canvas id="chart-area" />
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </block>
+	菜品列表
+
                 <!--ToDo end-->
             </section>
         </section>
         <!--main content end-->
     </section>
     <!--Global JS-->
-    <script src="__PUBLIC__/assets/js/jquery-1.10.2.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/waypoints/waypoints.min.js"></script>
-    <script src="__PUBLIC__/assets/js/application.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/js/jquery-1.10.2.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/waypoints/waypoints.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/js/application.js"></script>
     <!--Page Level JS-->
-    <script src="__PUBLIC__/assets/plugins/countTo/jquery.countTo.js"></script>
-    <script src="__PUBLIC__/assets/plugins/weather/js/skycons.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/countTo/jquery.countTo.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/weather/js/skycons.js"></script>
     <!-- FlotCharts  -->
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.resize.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.canvas.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.image.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.categories.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.crosshair.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.errorbars.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.fillbetween.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.navigate.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.pie.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.selection.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.stack.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.symbol.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.threshold.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.colorhelpers.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.time.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/jquery.flot.example.js"></script>
-    <script src="__PUBLIC__/assets/plugins/flot/js/Chart.bundle.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.resize.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.canvas.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.image.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.categories.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.crosshair.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.errorbars.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.fillbetween.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.navigate.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.pie.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.selection.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.stack.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.symbol.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.threshold.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.colorhelpers.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.time.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.example.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/Chart.bundle.js"></script>
 
     <!-- Morris  -->
-    <script src="__PUBLIC__/assets/plugins/morris/js/morris.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/morris/js/raphael.2.1.0.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/morris/js/morris.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/morris/js/raphael.2.1.0.min.js"></script>
     <!-- Vector Map  -->
-    <script src="__PUBLIC__/assets/plugins/jvectormap/js/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="__PUBLIC__/assets/plugins/jvectormap/js/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/jvectormap/js/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/jvectormap/js/jquery-jvectormap-world-mill-en.js"></script>
     <!-- ToDo List  -->
-    <script src="__PUBLIC__/assets/plugins/todo/js/todos.js"></script>
-    <block name='script_load'>
-    </block>
+    <script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/todo/js/todos.js"></script>
+    
+    
     <!--Load these page level functions-->
-<block name="script">
+
     <style>
         canvas {
             -moz-user-select: none;
@@ -529,7 +437,7 @@
     };
 
     </script> 
-    </block>
+    
 </body>
 
 </html>
