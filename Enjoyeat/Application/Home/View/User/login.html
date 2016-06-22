@@ -1,8 +1,14 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>登录-叫外卖上享吃</title>
+	<link rel="stylesheet" href="__PUBLIC__/assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css">
+	<script src="__PUBLIC__/assets/js/jquery-1.10.2.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/waypoints/waypoints.min.js"></script>
+	<script src="__PUBLIC__/assets/js/application.js"></script>
 	<style>
 		html {
 		    box-sizing: border-box;
@@ -196,7 +202,38 @@
 		  margin: 0 auto;
 		  width: 950px;
 		}
-
+		.footer-line a {
+		    color: inherit;
+		}
+		.account-line .line-right {
+		    float: right;
+		}
+		.account-captcha .captcha-refresh {
+		    color: #8da0aa;
+		    float: right;
+		    font-size: 12px;
+		    line-height: 1.2em;
+		    margin-top: 6px;
+		    width: 36px;
+		}
+		.account-captcha {
+		    height: 40px;
+		    position: absolute;
+		    right: 0;
+		    top: 0;
+		    vertical-align: bottom;
+		    width: 132px;
+		}
+		.account-title {
+		    font-size: 24px;
+		    font-weight: 400;
+		}
+		.login-mode-toggle {
+		    color: #8da0aa;
+		    font-size: 14px;
+		    padding-top: 8px;
+		}
+		
 	</style>
 </head>
 <body>
@@ -204,13 +241,13 @@
         <!-- ngIf: !noGlobalWrap -->
       	<header class="account-header ng-scope" ng-if="!noGlobalWrap">
 			<a href="http://www.ele.me">
-				<img src="__PBULIC__/Home/images/logo.png" alt="">
+				<img src="__PUBLIC__/Home/images/logo.png" alt="">
 			</a>
 		</header>
         <!-- ngView:  -->
         <div ng-view="" class="account-container ng-scope">
             <div class="login ng-scope">
-                <img src="//static11.elemecdn.com/eleme/account/media/img/banner-app.98db42.png" class="account-illustration"> <!-- ngInclude:  -->
+                <img src="__PUBLIC/Home/images/login_img.png" class="account-illustration"> <!-- ngInclude:  -->
                 <div src="'/app/templates/_login_main.tpl.html'" ng-include="" class="account-main aside ng-scope">
                     <div class="account-line ng-scope">
                         <h3 class="account-title line-left">
@@ -312,11 +349,7 @@
                         <a href="/register">新用户注册</a> <a href="/forget" class="line-right">忘记密码</a>
                     </div><!-- ngInclude: '/app/templates/_auth_links.tpl.html' -->
                     <div ng-hide="noGlobalWrap &amp;&amp; iframe.hideAuth" ng-include="'/app/templates/_auth_links.tpl.html'" class="account-authlink ng-scope">
-                        <div ng-controller="AuthLinksCtrl" class="ng-scope">
-                            <h4 class="auth-linktitle">
-                                可使用以下账号直接登录
-                            </h4><a target="_blank" href="https://graph.qq.com/oauth2.0/authorize?client_id=101204453&amp;response_type=code&amp;scope=get_user_info&amp;state=e215d9bc90ea76307f7aaf830b6cb351216e716b&amp;redirect_uri=https://account.ele.me/auth/connect/qq?redirect_url=http://www.ele.me" class="auth-link qq">QQ</a> <a target="_blank" ng-href="https://api.weibo.com/oauth2/authorize?client_id=1772937595&amp;response_type=code&amp;redirect_uri=https://account.ele.me/auth/connect/weibo?redirect_url=http://www.ele.me" class="auth-link weibo" href="https://api.weibo.com/oauth2/authorize?client_id=1772937595&amp;response_type=code&amp;redirect_uri=https://account.ele.me/auth/connect/weibo?redirect_url=http://www.ele.me">微博</a>
-                        </div>
+                
                     </div>
                 </div>
             </div>
