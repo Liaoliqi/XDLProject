@@ -1,8 +1,8 @@
 <?php
 namespace Admin\Controller;
-use Think\Controller;
+
 //统计信息
-class StatisticsController extends Controller {
+class StatisticsController extends AdminController {
     
     public function index(){
     	$this->assign('title','最新统计');

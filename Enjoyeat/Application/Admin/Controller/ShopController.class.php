@@ -1,8 +1,8 @@
 <?php
 namespace Admin\Controller;
-use Think\Controller;
+
 //商家信息
-class ShopController extends Controller {
+class ShopController extends AdminController {
     
     public function index(){
     	$this->assign('title','商家列表');
