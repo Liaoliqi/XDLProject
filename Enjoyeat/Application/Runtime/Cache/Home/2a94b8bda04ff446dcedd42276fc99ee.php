@@ -1,4 +1,4 @@
-<html>
+<?php if (!defined('THINK_PATH')) exit();?><html>
 <head>
   <meta charset="utf-8">
   <title></title>
@@ -663,11 +663,11 @@
     <div ng-class="{mapmode: mapMode}" class="map ng-scope">
       <div class="container">
         <div class="map-header clearfix" map-header="">
-          <h1><a ubt-click="1433" href="/"><img src="__PUBLIC__/home/images/tips.png"></a></h1>
+          <h1><a ubt-click="1433" href="/"><img src="/XDLProject/Enjoyeat/Public/home/images/tips.png"></a></h1>
           <!-- ngIf: user.user_id --><!-- ngIf: !user.user_id --><span ng-if="!user.user_id" class="map-header-right ng-scope"><a ubt-click="1430" target="_blank" ng-href="https://account.ele.me/register" href="https://account.ele.me/register">注册</a><span> | </span><a ubt-click="1431" ng-href="https://account.ele.me/login" href="https://account.ele.me/login">登录</a><a ubt-click="1432" target="_blank" href="http://kaidian.ele.me" class="btn-security btn-sm">我要开店</a></span><!-- end ngIf: !user.user_id -->
         </div>
         <div ng-class="{mapmode: mapMode}" class="map-main ng-isolate-scope" map-mode="mapMode" map-main="">
-          <h2 class="map-logo"><img src="__PUBLIC__/home/images/logo.png"></h2>
+          <h2 class="map-logo"><img src="/XDLProject/Enjoyeat/Public/home/images/logo.png"></h2>
           <div ng-class="{hasuserinfo: $root.user.user_id}" class="map-navbar clearfix">
             <div map-mode="mapMode" class="map-city ng-isolate-scope" current-city="currentCity" hide-search-result="hideSearchResult" map-city="">
               <a ng-click="mapCity.toggle($event)" ng-bind="mapCity.current.name" href="javascript:" class="mapcity-current ng-binding">上海</a><!-- ngIf: mapCity.showCities -->
@@ -711,7 +711,7 @@
             增值电信业务许可证 : <a target="_blank" href="http://www.shca.gov.cn/">沪B2-20150033</a> | <a target="_blank" href="http://www.miibeian.gov.cn/">沪ICP备 09007032</a> | <a target="_blank" href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20120305173227823">上海工商行政管理</a> Copyright &copy;2008-2016 xc.com, All Rights Reserved.
           </div>
           <div class="footer-police container">
-            <a target="_blank" rel="nofollow" href="http://www.zx110.org/picp/?sn=310100103568"><img height="30" src="__PUBLIC__/home/images/picp_bg.e373b3.jpg" alt="已通过沪公网备案，备案号 310100103568"></a>
+            <a target="_blank" rel="nofollow" href="http://www.zx110.org/picp/?sn=310100103568"><img height="30" src="/XDLProject/Enjoyeat/Public/home/images/picp_bg.e373b3.jpg" alt="已通过沪公网备案，备案号 310100103568"></a>
           </div>
         </div>
         <div class="map-car">
