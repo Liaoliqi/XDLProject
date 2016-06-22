@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><{$title}></title>
+    <style type="text/css">
+      body{text-align: center;}
+    </style>
+    <!-- Bootstrap -->
+    <link href="__PUBLIC__/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1><{$title}></h1>
+    <p><a href="<{:U('insert')}>" class="btn btn-success btn-lg">新增用户</a></p>
+    <p>
+      <tr>
+        <td colspan="6">
+          <form class="form-inline" action="<{:U('index')}>" method="get">
+            <div class="form-group">
+              <label for="name">搜索：</label>
+              <input type="text" class="form-control" id="name" name="search" placeholder="请输入...">
+              <button type="submit" class="btn btn-success">搜索</button>
+            </div>
+          </form>
+        </td>
+      </tr>
+    </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+              <table align="center" class="table">
+                <thead>
+                  
+                  <tr class="info">
+                    <foreach name="th" item="v" >
+                      <th><{$key}></th>
+                    </foreach>
+                    <th>操作</th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                <volist name="cont" id="val">
+                  <tr>
+                  <volist name="val" id="va">
+                    <td><{$va}></td>
+                  </volist>
+                  <td><a href="<{:U('Admin/User/update/id/'.$val['id'])}>" class="btn btn-info">修改</a> | <button class="btn btn-danger" link="<{:U('Admin/User/del/id/'.$val['id'])}>">删除</button></td>
+                  </tr>
+                </volist>
+                <tr>
+                    <td colspan="6">
+                      
+                        <nav>
+                          <ul class="pagination">
+                            <{$show}>
+                          </ul>
+                        </nav>
+                    </td>
+                  </tr>
+                </tbody>
+              
+              </table>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="__PUBLIC__/Dist/js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="__PUBLIC__/Dist/js/bootstrap.min.js"></script>
+  </body>
+  <script type="text/javascript">
+    $(document).ready(function () {
+        $("table tr td button").click(function(){
+          $(this).parents('tr').remove();
+          $.get(
+            $(this).attr('link'),
+            function (data){
+              if(data){
+              }else{
+                alert('删除失败');
+              }
+            }
+            )
+        });
+    });
+  </script>
+</html>
