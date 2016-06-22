@@ -1,0 +1,18 @@
+[ 2016-06-22T20:02:12+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Order/tables-basic.html
+ERR: 非法操作:tables-basic
+
+[ 2016-06-22T20:02:18+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Order/tables-basic.html
+ERR: 非法操作:tables-basic
+
+[ 2016-06-22T20:02:53+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Order/tables-basic.html
+ERR: 非法操作:tables-basic
+
+[ 2016-06-22T20:03:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Classify/index.html
+ERR: 模板不存在:./Application/Shop/View/Classify/index.html
+
+[ 2016-06-22T20:11:51+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Index/forms-components.html
+ERR: 非法操作:forms-components
+
+[ 2016-06-22T20:13:13+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Index/forms-components.html
+ERR: 非法操作:forms-components
+
