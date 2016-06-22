@@ -1,0 +1,6 @@
+李琦：
+  根据(project_document\目录结构.docx)创建完成前台Home文件夹内的：所有PHP文件创建
+一波：
+  根据(project_document\目录结构.docx)创建完成后台Admin文件夹内的：所有PHP文件创建
+杨兵：
+  根据(project_document\目录结构.docx)创建完成商家平台Shop文件夹内的：所有PHP文件创建
