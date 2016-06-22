@@ -1,0 +1,318 @@
+[ 2016-06-22T18:35:42+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/dist/css/bootstrap.min.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T18:35:42+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Dist/js/bootstrap.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T18:35:42+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Dist/js/jquery-1.11.3.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T18:52:34+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/dist/css/bootstrap.min.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T18:52:34+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Dist/js/jquery-1.11.3.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T18:52:34+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Dist/js/bootstrap.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/font-awesome.min.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/animate.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/bootstrap/css/bootstrap.min.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/morris/css/morris.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/main.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/todo/css/todos.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/js/modernizr-2.6.2.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/jvectormap/css/jquery-jvectormap-1.2.2.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/js/application.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/waypoints/waypoints.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/bootstrap/js/bootstrap.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.resize.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/js/jquery-1.10.2.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.canvas.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/weather/js/skycons.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/countTo/jquery.countTo.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.image.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.categories.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.crosshair.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.pie.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.stack.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.selection.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.navigate.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.colorhelpers.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.time.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.symbol.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:10:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.threshold.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.errorbars.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.fillbetween.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.example.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/morris/js/morris.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/morris/js/raphael.2.1.0.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/jvectormap/js/jquery-jvectormap-world-mill-en.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/img/avatar.png
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/img/avatar2.gif
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/img/avatar1.gif
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/todo/js/todos.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/Chart.bundle.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/jvectormap/js/jquery-jvectormap-1.2.2.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/img/avatar3.gif
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/img/avatar4.gif
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/img/avatar.gif
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:00+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/img/favicon.ico
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/font-awesome.min.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/animate.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/main.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/js/modernizr-2.6.2.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/bootstrap/css/bootstrap.min.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/todo/css/todos.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/jvectormap/css/jquery-jvectormap-1.2.2.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/morris/css/morris.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/js/jquery-1.10.2.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/bootstrap/js/bootstrap.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/weather/js/skycons.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/waypoints/waypoints.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.resize.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.image.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.errorbars.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/countTo/jquery.countTo.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.canvas.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/js/application.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.selection.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.navigate.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:02+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.crosshair.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.threshold.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.fillbetween.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.time.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.stack.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.symbol.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.pie.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.categories.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/Chart.bundle.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/morris/js/morris.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.flot.example.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/jvectormap/js/jquery-jvectormap-world-mill-en.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/jvectormap/js/jquery-jvectormap-1.2.2.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/img/avatar2.gif
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/flot/js/jquery.colorhelpers.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/morris/js/raphael.2.1.0.min.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/img/avatar1.gif
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/plugins/todo/js/todos.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/img/avatar3.gif
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/img/avatar4.gif
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/img/avatar.png
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:11:03+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/img/avatar.gif
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:13:07+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:15:26+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:21:15+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:21:16+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:21:18+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:21:20+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:21:46+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:21:48+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:21:51+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:21:52+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-22T19:21:54+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/assets/css/my.css
+ERR: 无法加载模块:Public
+
