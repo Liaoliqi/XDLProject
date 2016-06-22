@@ -1,8 +1,14 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
+//后台首页
 class IndexController extends Controller {
+    
     public function index(){
-        $this->show('admin index','utf-8');
+    	$this->assign('title','后台首页');
+		$this->display();
     }
+
+    
+
 }
