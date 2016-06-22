@@ -1,8 +1,9 @@
 <?php
 
 namespace Admin\Controller;
+use Think\Controller;
+class PublicController extends Controller{
 
-class PublicController extends AdminController{
 	public function login()
 	{
 		$this->display();
@@ -33,7 +34,10 @@ class PublicController extends AdminController{
 	
 
 	}
-
+	public function doLogout(){
+		unset($_SESSION['user_info']);
+		$this->redirect('Public/login');
+	}
 		
 
 }

@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>登录-叫外卖上享吃</title>
-	<link rel="stylesheet" href="__PUBLIC__/assets/plugins/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css">
-	<script src="__PUBLIC__/assets/js/jquery-1.10.2.min.js"></script>
-	<script src="__PUBLIC__/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-	<script src="__PUBLIC__/assets/plugins/waypoints/waypoints.min.js"></script>
-	<script src="__PUBLIC__/assets/js/application.js"></script>
+	<link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/assets/css/font-awesome.min.css">
+	<script src="/dev/XDLProject/Enjoyeat/Public/assets/js/jquery-1.10.2.min.js"></script>
+	<script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/dev/XDLProject/Enjoyeat/Public/assets/plugins/waypoints/waypoints.min.js"></script>
+	<script src="/dev/XDLProject/Enjoyeat/Public/assets/js/application.js"></script>
 	<style>
 		html {
 		    box-sizing: border-box;
@@ -241,7 +241,7 @@
         <!-- ngIf: !noGlobalWrap -->
       	<header class="account-header ng-scope" ng-if="!noGlobalWrap">
 			<a href="http://www.ele.me">
-				<img src="__PUBLIC__/Home/images/logo.png" alt="">
+				<img src="/dev/XDLProject/Enjoyeat/Public/Home/images/logo.png" alt="">
 			</a>
 		</header>
         <!-- ngView:  -->
