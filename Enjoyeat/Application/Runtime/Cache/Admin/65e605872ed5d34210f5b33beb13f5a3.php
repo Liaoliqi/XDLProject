@@ -268,15 +268,14 @@
                                 </thead>
 
                                 <tbody>
-                                    <tr>
+                                    <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                                         <td>1</td>
-                                        <td>戴聪敏</td>
+                                        <td><?php echo ($vo["username"]); ?></td>
                                         <td>2345</td>
                                         <td>23232@qq.com</td>
                                         <td>1234567876543</td>
                                         <td>铜锣湾</td>
-                                    </tr>
-                                
+                                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                                 </tbody>
                             </table>
 

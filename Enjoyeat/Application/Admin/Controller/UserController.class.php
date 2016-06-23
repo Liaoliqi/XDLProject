@@ -7,8 +7,8 @@ class UserController extends AdminController {
     	$this->assign('title','用户列表');
     	$model=M('user_login');
     	$a=$model->select();
-    	dump($a);
-
+    	//dump($a);
+    	$this->assign('list',$a);
 
 
 

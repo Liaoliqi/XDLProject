@@ -71,3 +71,6 @@ ERR: 非法操作:index
 ERR: 1146:Table 'enjoyeat.enjoyeat_model' doesn't exist
  [ SQL语句 ] : SHOW COLUMNS FROM `enjoyeat_model`
 
+[ 2016-06-23T15:55:29+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/User/index.html
+ERR: Think\Controller:assgin方法不存在！
+
