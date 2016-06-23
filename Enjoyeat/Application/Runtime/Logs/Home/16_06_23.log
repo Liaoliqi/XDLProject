@@ -13,3 +13,58 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
 
+[ 2016-06-23T22:45:15+08:00 ] ::1 /git/Enjoyeat/Home/User/sendMail?email=18020225275%40163.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-23T22:46:38+08:00 ] ::1 /git/Enjoyeat/Home/User/sendMail?email=18020225275%40163.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-23T22:48:11+08:00 ] ::1 /git/Enjoyeat/Home/User/doLogin?username=18020225275@163.com&password=12345&vcode=ynm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `enjoyeat_user_login` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `enjoyeat_user_login` WHERE ( `username`='18020225275@163.com' or `email`='18020225275@163.com' ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-06-23T22:48:12+08:00 ] ::1 /git/Enjoyeat/Home/User/doLogin?username=18020225275@163.com&password=12345&vcode=ynm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038002s ]
+
+[ 2016-06-23T22:48:13+08:00 ] ::1 /git/Enjoyeat/Home/User/doLogin?username=18020225275@163.com&password=12345&vcode=ynm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-23T22:48:14+08:00 ] ::1 /git/Enjoyeat/Home/User/doLogin?username=18020225275@163.com&password=12345&vcode=ynm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-23T22:48:15+08:00 ] ::1 /git/Enjoyeat/Home/User/doLogin?username=18020225275@163.com&password=12345&vcode=ynm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-23T22:48:16+08:00 ] ::1 /git/Enjoyeat/Home/User/doLogin?username=18020225275@163.com&password=12345&vcode=ynm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-23T22:48:25+08:00 ] ::1 /git/Enjoyeat/Home/User/doLogin?username=18020225275@163.com&password=123456&vcode=FWH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `enjoyeat_user_login` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `enjoyeat_user_login` WHERE ( `username`='18020225275@163.com' or `email`='18020225275@163.com' ) LIMIT 1   [ RunTime:0.0020s ]
+

@@ -37,7 +37,7 @@ class UserController extends HomeController {
         $_POST['password'] = md5($_POST['password']);
         if($user->create()){
             if($user->add()){
-                $this->success('注册成功','User/login');
+                $this->success('注册成功','login');
             }else{
                 $this->error('注册失败');
             }
