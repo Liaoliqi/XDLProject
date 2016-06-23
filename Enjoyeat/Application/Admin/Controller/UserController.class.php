@@ -5,6 +5,13 @@ class UserController extends AdminController {
 
     public function index(){
     	$this->assign('title','用户列表');
+    	$model=M('user_login');
+    	$a=$model->select();
+    	//dump($a);
+    	$this->assign('list',$a);
+
+
+
 		$this->display();
     }
 

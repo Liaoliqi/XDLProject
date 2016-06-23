@@ -1,0 +1,76 @@
+[ 2016-06-23T13:57:53+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Statistics/sho
+ERR: 模板不存在:./Application/Admin/View/Public/404.html.html
+
+[ 2016-06-23T14:37:41+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:37:50+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:38:24+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public/log
+ERR: 非法操作:log
+
+[ 2016-06-23T14:38:27+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:38:37+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:44:03+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:44:16+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:47:02+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:47:03+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:47:42+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:47:55+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public/
+ERR: 非法操作:index
+
+[ 2016-06-23T14:47:58+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:48:04+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public/
+ERR: 非法操作:index
+
+[ 2016-06-23T14:51:37+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public/
+ERR: 非法操作:index
+
+[ 2016-06-23T14:52:01+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public/d
+ERR: 非法操作:d
+
+[ 2016-06-23T14:52:05+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:52:41+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:55:48+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:55:48+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:55:48+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:55:48+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public
+ERR: 非法操作:index
+
+[ 2016-06-23T14:55:55+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/Public
+ERR: 非法操作:index
+
+[ 2016-06-23T15:12:29+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/User/index.html
+ERR: 1146:Table 'enjoyeat.enjoyeat_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `enjoyeat_model`
+
+[ 2016-06-23T15:55:29+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/User/index.html
+ERR: Think\Controller:assgin方法不存在！
+
