@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [ 2016-06-23T16:42:31+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/shop/kaidian
 ERR: 无法加载控制器:Kaidian
 
@@ -15,4 +16,110 @@ ERR: 无法加载控制器:Register
 
 [ 2016-06-23T16:44:23+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/shop/register/kaidian
 ERR: 无法加载控制器:Register
+=======
+[ 2016-06-23T13:55:29+08:00 ] ::1 /dev/XDLProject/Enjoyeat/shop/login
+ERR: 无法加载控制器:Login
+
+[ 2016-06-23T15:42:53+08:00 ] ::1 /dev/XDLProject/Enjoyeat/shop/register?
+ERR: 非法操作:index
+
+[ 2016-06-23T15:43:15+08:00 ] ::1 /dev/XDLProject/Enjoyeat/shop/register
+ERR: 非法操作:index
+
+[ 2016-06-23T16:03:54+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/ready.html
+ERR: 模板不存在:./Application/Shop/View/Register/ready.html
+
+[ 2016-06-23T16:04:13+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/app_002.css
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:13+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/app.css
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:13+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/73caa017b45adf0004bcb332f168d264.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:14+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/25bf9c3b73ffd2e9c3b986898f026fa9.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:14+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/020803b31ca45a097708c0cebcf12571.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:14+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/nevermore.js
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:14+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/analytics.js
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:14+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/ga.js
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:14+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/vendor.js
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:14+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/586b06784b835e1264be08c9a278a45b.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:14+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/c681b66b64bec947d63fb0417b9bc3e5.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:14+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/12a0c873b21534dd22771d047116000f.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:14+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/3a2cbc5d1431408e74e9248187469d1d.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:14+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/ae3716b6694c3f6effbee4997b6038da.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:14+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/app.js
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:19+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/app.css
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:19+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/73caa017b45adf0004bcb332f168d264.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:19+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/25bf9c3b73ffd2e9c3b986898f026fa9.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:19+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/app_002.css
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:19+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/vendor.js
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:19+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/nevermore.js
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:19+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/app.js
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:19+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/ga.js
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:19+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/020803b31ca45a097708c0cebcf12571.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:19+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/analytics.js
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:19+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/586b06784b835e1264be08c9a278a45b.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:19+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/3a2cbc5d1431408e74e9248187469d1d.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:19+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/c681b66b64bec947d63fb0417b9bc3e5.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:20+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/12a0c873b21534dd22771d047116000f.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:04:20+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/%E5%BC%80%E5%BA%97%E7%94%B3%E8%AF%B7_files/ae3716b6694c3f6effbee4997b6038da.svg
+ERR: 非法操作:开店申请_files
+
+[ 2016-06-23T16:23:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Shop/Register/ininfo.html
+ERR: 非法操作:ininfo
+>>>>>>> 9497f503ec89c5cc91b8a7b9a9fc1409b6d08818
 

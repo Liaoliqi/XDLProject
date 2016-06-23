@@ -170,6 +170,7 @@ ERR: 无法加载模块:Public
 >>>>>>> bff9a6a9eafc6bf25de04f17bc1cc76886ab0c99
 ERR: 无法加载模块:Public
 
+<<<<<<< HEAD
 [ 2016-06-23T16:29:39+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/userlogin
 ERR: 无法加载模块:Userlogin
 
@@ -600,5 +601,197 @@ ERR: 无法加载模块:Public
 ERR: 无法加载模块:Public
 
 [ 2016-06-23T21:21:08+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Assets/img/favicon.ico
+=======
+[ 2016-06-23T13:55:18+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T14:38:21+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T14:39:42+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:19:01+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:19:48+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:20:48+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:20:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:21:40+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:22:27+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:22:39+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:22:49+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:23:26+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:24:04+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:27:25+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:27:59+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:28:36+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:31:52+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:34:22+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:34:42+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:34:57+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:35:46+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:36:07+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:36:32+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:36:53+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:38:10+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:38:26+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:38:50+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:39:09+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery.min.map
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T15:42:58+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:06:13+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/ga.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:06:13+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/nevermore.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:06:13+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/vendor.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:06:13+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/analytics.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:06:13+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/app.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:06:52+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/vendor.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:06:52+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/ga.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:06:52+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/app.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:06:52+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/analytics.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:06:52+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/nevermore.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:07:16+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/nevermore.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:07:16+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/vendor.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:07:16+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/app.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:07:16+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/analytics.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:07:16+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/ga.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:07:17+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/app.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:07:17+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/vendor.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:07:17+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/ga.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:07:17+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/nevermore.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:07:17+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/analytics.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:07:47+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/analytics.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:07:47+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/nevermore.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:07:47+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/ga.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:07:47+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/app.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:07:47+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/vendor.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:17:13+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/analytics.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:17:13+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/ga.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:17:13+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/nevermore.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:17:13+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/app.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:17:13+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/vendor.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:42:35+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/nevermore.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:42:35+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/ga.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:42:35+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/app.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:42:35+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/vendor.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T16:42:35+08:00 ] ::1 /dev/XDLProject/Enjoyeat/Public/Shop/ready/analytics.js
+>>>>>>> 9497f503ec89c5cc91b8a7b9a9fc1409b6d08818
 ERR: 无法加载模块:Public
 
