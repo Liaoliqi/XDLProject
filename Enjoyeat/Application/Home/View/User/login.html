@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>登录-叫外卖上享吃</title>
-	<meta rel="icon" href="__PUBLIC__/Home/Images/favicon1.png" size="16x16" type="image/png">
+	<title><{$title}></title>
+	<link rel="icon" href="__PUBLIC__/Home/Images/favicon1.png" size="16x16" type="image/png">
 	<link rel="stylesheet" href="__PUBLIC__/assets/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css">
 	<script src="__PUBLIC__/assets/js/jquery-1.10.2.min.js"></script>
@@ -236,9 +236,10 @@
 		}
 		
 	</style>
+	<script src="__PUBLIC__/Js/jquery.min.js"></script>
 </head>
 <body>
-	<div ng-class="{container: !noGlobalWrap}" class="container">
+	<div class="container">
         <!-- ngIf: !noGlobalWrap -->
       	<header class="account-header ng-scope" ng-if="!noGlobalWrap">
 			<a href="http://www.ele.me">
@@ -251,103 +252,36 @@
                 <img src="__PUBLIC__/Home/images/login_img.png" class="account-illustration"> <!-- ngInclude:  -->
                 <div src="'/app/templates/_login_main.tpl.html'" ng-include="" class="account-main aside ng-scope">
                     <div class="account-line ng-scope">
-                        <h3 class="account-title line-left">
-                            登录
-                        </h3><!-- ngIf: normalMode --><a ng-if="normalMode" ng-click="changeMode()" href="javascript:" class="login-mode-toggle line-right ng-scope">手机验证登录</a><!-- end ngIf: normalMode -->
+                        <h3 class="account-title line-left" style="display:inline">登录</h3>
+                        <a ng-if="normalMode" ng-click="changeMode()" href="javascript:" class="login-mode-toggle line-right ng-scope">手机验证登录</a><!-- end ngIf: normalMode -->
                         <!-- ngIf: !normalMode -->
                     </div><!-- ngInclude:  -->
-                    <div src="'/app/templates/_login_normal.tpl.html'" ng-include="" class="login-form ng-scope" ng-show="normalMode">
-                        <form novalidate="" ng-submit="loginNormal()" class="account-form ng-scope ng-pristine ng-invalid ng-invalid-required" name="loginnormal" ng-controller="LoginNormalCtrl">
-                            <div ng-show="(loginnormal.$invalid || errTip) &amp;&amp; submitted" class="form-group error-group ng-hide">
-                                <div ng-bind="errTip" ng-show="errTip" class="account-errtip ng-binding ng-hide"></div>
-                                <div ng-show="loginnormal.username.$error.required" class="account-errtip">
-                                    请输入手机号/邮箱/用户名
-                                </div>
-                                <div ng-show="loginnormal.password.$error.required" class="account-errtip">
-                                    请输入密码
-                                </div>
-                                <div ng-show="loginnormal.password.$error.minlength" class="account-errtip ng-hide">
-                                    密码长度不对
-                                </div>
-                                <div ng-show="loginnormal.captcha_code.$error.required" class="account-errtip">
-                                    请输入验证码
-                                </div>
-                                <div ng-show="loginnormal.captcha_code.$error.minlength" class="account-errtip ng-hide">
-                                    验证码位数不对
-                                </div>
+                        <form action="javascript:void(0)" onsubmit="return loginCheck();" class="account-form ng-scope ng-pristine ng-invalid ng-invalid-required" id="loginForm" >
+                            <div class="form-group compact" id="error" style="display:none">
+                                <input type="text" disabled id="errorMsg" style="color:red" class="account-input withicon ng-pristine ng-invalid ng-invalid-required">
                             </div>
                             <div class="form-group compact">
-                                <input type="text" required="" update-model-on="loginnormal.submit blur" ng-class="{error: submitted &amp;&amp; loginnormal.username.$dirty &amp;&amp; loginnormal.username.$invalid}" placeholder="手机号/邮箱/用户名" class="account-input withicon ng-pristine ng-invalid ng-invalid-required" ng-model="normalForm.username" name="username">
+                                <input type="text" required="" placeholder="手机号/邮箱/用户名" class="account-input withicon ng-pristine ng-invalid ng-invalid-required"  name="username">
                             </div>
                             <div class="form-group">
-                                <input type="password" required="" maxlength="20" ng-minlength="6" update-model-on="loginnormal.submit blur" ng-class="{error: submitted &amp;&amp; loginnormal.password.$dirty &amp;&amp; loginnormal.password.$invalid}" placeholder="密码" class="account-input withicon ng-pristine ng-invalid ng-invalid-required ng-valid-minlength" ng-model="normalForm.password" name="password">
+                                <input type="password" required="" maxlength="20" ng-minlength="6" placeholder="密码" class="account-input withicon ng-pristine ng-invalid ng-invalid-required ng-valid-minlength" name="password">
                             </div>
                             <div class="form-group account-verify">
-                                <input required="" maxlength="4" ng-minlength="4" ng-class="{error: submitted &amp;&amp; loginnormal.captcha_code.$dirty &amp;&amp; loginnormal.captcha_code.$invalid}" update-model-on="loginnormal.submit blur" placeholder="验证码" class="account-input verify ng-pristine ng-invalid ng-invalid-required ng-valid-minlength" ng-model="normalForm.captcha_code" name="captcha_code"> <span class="account-captcha" captcha=""><span><img title="图片验证码" ng-src="/restapi/v1/captchas/69bde5c0f4912beb9d9cf3d4fe96370972ec92a3" ng-click="refreshCaptcha()" class="captcha-img" ng-show="imgUrl" src="/restapi/v1/captchas/69bde5c0f4912beb9d9cf3d4fe96370972ec92a3"> <a ubt-click="captcha_refresh" href="javascript:" ng-click="refreshCaptcha()" class="captcha-refresh">看不清换一张</a></span></span>
+                                <input required="" maxlength="4" ng-minlength="4" placeholder="验证码" class="account-input verify ng-pristine ng-invalid ng-invalid-required ng-valid-minlength" name="vcode"> 
+                                <span class="account-captcha" >
+                                <img title="图片验证码" class="captcha-img" id="vcode" src="<{:U('User/verify')}>" onclick="getNewVerify(this)"> 
+                                </span>
                             </div>
                             <div class="form-group compact">
-                                <label><input type="checkbox" checked="checked" class="account-checkbox">下次自动登录</label>
+                                <label><input type="checkbox" checked="checked" class="account-checkbox" value="1" name="auto_login">下次自动登录</label>
                             </div>
                             <div class="form-group">
-                                <button ng-bind="submitting ? '提交中...' : '登录'" type="submit" ng-class="{disabled: submitting}" class="account-btn submit ng-binding">登录</button>
+                                <button type="submit" class="account-btn submit ng-binding">登录</button>
                             </div>
                         </form>
-                    </div><!-- ngInclude:  -->
-                    <div src="'/app/templates/_login_mobile.tpl.html'" ng-include="" class="login-form ng-scope ng-hide" ng-show="!normalMode">
-                        <form novalidate="" ng-controller="LoginMobileCtrl" ng-submit="loginMobile()" class="account-form ng-scope ng-pristine ng-invalid ng-invalid-required" name="loginmobile">
-                            <div ng-show="!gotTokenError &amp;&amp; submitted &amp;&amp; (loginmobile.$invalid || errTip)" class="form-group error-group ng-hide">
-                                <div ng-bind="errTip" ng-show="errTip" class="account-errtip ng-binding ng-hide"></div>
-                                <div ng-show="loginmobile.mobile.$error.required" class="account-errtip">
-                                    请输入正确的手机号
-                                </div>
-                                <div ng-show="loginmobile.mobile.$error.pattern" class="account-errtip ng-hide">
-                                    请输入正确的手机号
-                                </div>
-                                <div ng-show="loginmobile.code.$error.required" class="account-errtip">
-                                    请输入短信验证码
-                                </div>
-                            </div>
-                            <div ng-show="gotTokenError &amp;&amp; !submitted" class="form-group error-group ng-hide">
-                                <div ng-show="errTip &amp;&amp; errTip.errorExists" class="account-errtip ng-hide">
-                                    手机号还未注册，是否 <a href="//account.ele.me/register">立即注册</a>
-                                </div>
-                                <div ng-bind="errTip" ng-show="errTip" class="account-errtip ng-binding ng-hide"></div>
-                                <div ng-show="loginmobile.mobile.$error.required" class="account-errtip">
-                                    请输入正确的手机号
-                                </div>
-                                <div ng-show="loginmobile.mobile.$error.pattern" class="account-errtip ng-hide">
-                                    请输入正确的手机号
-                                </div>
-                            </div>
-                            <div class="form-group compact">
-                                <input type="text" required="" ng-pattern="mobilePattern" update-model-on="loginmobile.submit loginmobile.getToken blur" ng-class="{error: (submitted || gotTokenError) &amp;&amp; loginmobile.mobile.$dirty &amp;&amp; loginmobile.mobile.$invalid}" placeholder="手机号" class="account-input withicon ng-pristine ng-invalid ng-invalid-required ng-valid-pattern" ng-model="mobileForm.mobile" name="mobile">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" required="" update-model-on="loginmobile.submit blur" ng-class="{error: submitted &amp;&amp; loginmobile.code.$dirty &amp;&amp; loginmobile.code.$invalid}" placeholder="手机验证码" class="account-input withicon ng-pristine ng-invalid ng-invalid-required" ng-model="mobileForm.code" name="code"> <button ng-click="getToken('sms')" ng-class="{disabled: smsLoginCountdown === 'running' || audioLoginCountdown === 'running'}" class="account-btn verify ng-isolate-scope" status="smsLoginCountdown" time="60" tpl="重新发送(?time)" mode="text" countdown="" type="button">获取验证码</button>
-                                <div ng-show="smsLoginCountdown === 'running'" class="account-line countdown-tip ng-hide">
-                                    短信已发送，请输入短信中的验证码
-                                </div>
-                                <div ng-show="smsLoginCountdown === 'end' &amp;&amp; !gotTokenError &amp;&amp; audioLoginCountdown !== 'running'" class="account-line countdown-tip ng-hide">
-                                    收不到短信？使用 <a ng-click="getToken('audio')" href="javascript:">语音验证码</a>
-                                </div>
-                                <div ng-show="smsLoginCountdown === 'end' &amp;&amp; !gotTokenError &amp;&amp; audioLoginCountdown === 'running'" class="account-line countdown-tip ng-hide">
-                                    电话拨打中... 请留意你的手机来电
-                                    <div status="audioLoginCountdown" tpl="?time 秒后可重新拨打" time="60" mode="text" countdown="" class="tip-lower ng-isolate-scope"></div>
-                                    <p class="tip-lower">
-                                        你也可以拨打 <b>4001-075-517</b> 获取验证码
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="form-group compact">
-                                <label><input type="checkbox" checked="checked" class="account-checkbox">下次自动登录</label>
-                            </div>
-                            <div class="form-group">
-                                <button ng-bind="submitting ? '提交中...' : '登录'" type="submit" ng-class="{disabled: submitting}" class="account-btn submit ng-binding">登录</button>
-                            </div>
-                        </form>
-                    </div>
+                    
                     <div class="account-line ng-scope">
-                        <a href="/register">新用户注册</a> <a href="/forget" class="line-right">忘记密码</a>
+                        <a href="<{:U('User/register')}>">新用户注册</a> <a href="/forget" class="line-right">忘记密码</a>
                     </div><!-- ngInclude: '/app/templates/_auth_links.tpl.html' -->
                     <div ng-hide="noGlobalWrap &amp;&amp; iframe.hideAuth" ng-include="'/app/templates/_auth_links.tpl.html'" class="account-authlink ng-scope">
                 
@@ -355,6 +289,7 @@
                 </div>
             </div>
         </div><!-- ngIf: !noGlobalWrap -->
+
         <p class="footer-line">
             <a href="http://kaidian.ele.me" class="footer-link">我要开店</a> | <a href="http://ele.me/support/about/contact" class="footer-link">联系我们</a> | <a href="http://ele.me/support/about/agreement" class="footer-link">服务条款和协议</a> | <a href="http://jobs.ele.me" class="footer-link">加入我们</a>
         </p>
@@ -364,3 +299,44 @@
     </div>
 </body>
 </html>
+
+<script type="text/javascript">
+	function getNewVerify(obj){
+		obj.src = obj.src;
+	}
+
+	function loginCheck(){
+		var username = $("input[name='username']").val();
+		var password = $("input[name='password']").val();
+		var vcode = $("input[name='vcode']").val();
+		$.ajax({
+			type:'get',
+			data:"username="+username+"&password="+password+"&vcode="+vcode,
+			url:"doLogin",
+			success:function(data){
+				switch(data){
+					case "0":
+						$('#error').css('display','block');
+						$('#errorMsg').val('验证码不正确');
+						$('#vcode').trigger("click");
+						break;
+					case "1":
+						$('#error').css('display','block');
+						$('#errorMsg').val('没有该用户');
+						break;
+					case "2":
+						$('#error').css('display','block');
+						$('#errorMsg').val('密码不正确');
+						break;	
+					case "success":
+						// $('#error').css('display','block');
+						// $('#errorMsg').val('登陆成功');
+						location.href = '<{:U('Index/index')}>';
+						break;	
+				}
+			}
+		});
+		return false;
+	}
+
+</script>

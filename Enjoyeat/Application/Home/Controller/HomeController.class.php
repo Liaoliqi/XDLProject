@@ -3,6 +3,12 @@ namespace Home\Controller;
 use Think\Controller;
 // 用户资产控制器
 class HomeController extends Controller {
+
+	public function _initialize(){
+
+        
+	}
+
     public function index(){
     	$this->assign('title','Home基类');
         $this->display();
