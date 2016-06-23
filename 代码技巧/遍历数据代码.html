@@ -1,0 +1,22 @@
+<table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+      <thead>
+         <tr>
+          <!-- 遍历表头数组 -->
+           <foreach name="th" item="v" >
+             <th><{$v}></th>
+           </foreach>
+         </tr>
+     </thead>
+
+     <tbody>
+      <!-- 使用双层循环遍历二维所有数据 -->
+        <volist name="cont" id="val">
+            <tr>
+                <volist name="val" id="va">
+                  <td><{$va}></td>
+                </volist>
+                <!-- 可以在这里插入按钮和自定义操作 -->
+            </tr>
+        </volist>
+    </tbody>
+</table>

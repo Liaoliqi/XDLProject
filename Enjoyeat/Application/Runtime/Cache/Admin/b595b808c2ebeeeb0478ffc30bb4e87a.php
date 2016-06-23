@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -9,34 +9,34 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> <{$title}> </title>
+    <title> <?php echo ($title); ?> </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <!-- Favicon -->
-    <link rel="shortcut icon" href="__PUBLIC__/Assets/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/XDLProject/Enjoyeat/Public/Assets/img/favicon.ico" type="image/x-icon">
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="__PUBLIC__/Assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/XDLProject/Enjoyeat/Public/Assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Fonts from Font Awsome -->
-    <link rel="stylesheet" href="__PUBLIC__/Assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/XDLProject/Enjoyeat/Public/Assets/css/font-awesome.min.css">
     <!-- CSS Animate -->
-    <link rel="stylesheet" href="__PUBLIC__/Assets/css/animate.css">
+    <link rel="stylesheet" href="/XDLProject/Enjoyeat/Public/Assets/css/animate.css">
     <!-- Custom styles for this theme -->
-    <link rel="stylesheet" href="__PUBLIC__/Assets/css/main.css">
+    <link rel="stylesheet" href="/XDLProject/Enjoyeat/Public/Assets/css/main.css">
     <!-- Vector Map  -->
-    <link rel="stylesheet" href="__PUBLIC__/Assets/plugins/jvectormap/css/jquery-jvectormap-1.2.2.css">
+    <link rel="stylesheet" href="/XDLProject/Enjoyeat/Public/Assets/plugins/jvectormap/css/jquery-jvectormap-1.2.2.css">
     <!-- ToDos  -->
-    <link rel="stylesheet" href="__PUBLIC__/Assets/plugins/todo/css/todos.css">
+    <link rel="stylesheet" href="/XDLProject/Enjoyeat/Public/Assets/plugins/todo/css/todos.css">
     <!-- Morris  -->
-    <link rel="stylesheet" href="__PUBLIC__/Assets/plugins/morris/css/morris.css">
+    <link rel="stylesheet" href="/XDLProject/Enjoyeat/Public/Assets/plugins/morris/css/morris.css">
     <!-- Fonts -->
     <!-- <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'> -->
     <!-- Feature detection -->
-    <script src="__PUBLIC__/Assets/js/modernizr-2.6.2.min.js"></script>
+    <script src="/XDLProject/Enjoyeat/Public/Assets/js/modernizr-2.6.2.min.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="__PUBLIC__/Assets/js/html5shiv.js"></script>
-    <script src="__PUBLIC__/Assets/js/respond.min.js"></script>
+    <script src="/XDLProject/Enjoyeat/Public/Assets/js/html5shiv.js"></script>
+    <script src="/XDLProject/Enjoyeat/Public/Assets/js/respond.min.js"></script>
     <![endif]-->
 </head>
 
@@ -47,7 +47,7 @@
         <header id="header">
             <!--logo start-->
             <div class="brand">
-                <a href="<{:U('Index/index')}>" class="logo">
+                <a href="<?php echo U('Index/index');?>" class="logo">
                     <span>享吃</span></a>
             </div>
             <!--logo end-->
@@ -71,7 +71,7 @@
                             <li>
                                 <a href="#">
                                     <div class="profile-photo">
-                                        <img src="__PUBLIC__/Assets/img/avatar.gif" alt="" class="img-circle">
+                                        <img src="/XDLProject/Enjoyeat/Public/Assets/img/avatar.gif" alt="" class="img-circle">
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">James Bagian</span>
@@ -84,7 +84,7 @@
                             <li>
                                 <a href="#">
                                     <div class="profile-photo">
-                                        <img src="__PUBLIC__/Assets/img/avatar1.gif" alt="" class="img-circle">
+                                        <img src="/XDLProject/Enjoyeat/Public/Assets/img/avatar1.gif" alt="" class="img-circle">
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">Jeffrey Ashby</span>
@@ -97,7 +97,7 @@
                             <li>
                                 <a href="#">
                                     <div class="profile-photo">
-                                        <img src="__PUBLIC__/Assets/img/avatar2.gif" alt="" class="img-circle">
+                                        <img src="/XDLProject/Enjoyeat/Public/Assets/img/avatar2.gif" alt="" class="img-circle">
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">John Douey</span>
@@ -110,7 +110,7 @@
                             <li>
                                 <a href="#">
                                     <div class="profile-photo">
-                                        <img src="__PUBLIC__/Assets/img/avatar3.gif" alt="" class="img-circle">
+                                        <img src="/XDLProject/Enjoyeat/Public/Assets/img/avatar3.gif" alt="" class="img-circle">
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">Ellen Baker</span>
@@ -122,7 +122,7 @@
                             <li>
                                 <a href="#">
                                     <div class="profile-photo">
-                                        <img src="__PUBLIC__/Assets/img/avatar4.gif" alt="" class="img-circle">
+                                        <img src="/XDLProject/Enjoyeat/Public/Assets/img/avatar4.gif" alt="" class="img-circle">
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">Ivan Bella</span>
@@ -138,11 +138,11 @@
                     </li>
 
                     <li class="profile-photo">
-                        <img src="__PUBLIC__/Assets/img/avatar.png" alt="" class="img-circle">
+                        <img src="/XDLProject/Enjoyeat/Public/Assets/img/avatar.png" alt="" class="img-circle">
                     </li>
                     <li class="dropdown settings">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                      <{$Think.session.user_info.username}> <i class="fa fa-angle-down"></i>
+                      <?php echo ($_SESSION['user_info']['username']); ?> <i class="fa fa-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu animated fadeInDown">
                             <li>
@@ -155,7 +155,7 @@
                                 <a href="#"><i class="fa fa-envelope"></i> Inbox <span class="badge badge-danager" id="user-inbox">5</span></a>
                             </li>
                             <li>
-                                <a href="<{:U('Public/doLogout')}>"><i class="fa fa-power-off"></i> Logout</a>
+                                <a href="<?php echo U('Public/doLogout');?>"><i class="fa fa-power-off"></i> Logout</a>
                             </li>
                         </ul>
                     </li>
@@ -176,32 +176,32 @@
             <div id="leftside-navigation" class="nano">
                 <ul class="nano-content">
                     <li class="active">
-                        <a href="<{:U('Index/index')}>"><i class="fa fa-dashboard"></i><span>后台首页</span></a>
+                        <a href="<?php echo U('Index/index');?>"><i class="fa fa-dashboard"></i><span>后台首页</span></a>
                     </li>
                     <li class="sub-menu">
                         <a href="javascript:void(0);"><i class="fa fa-cogs"></i><span>用户管理</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                         <ul <?=((CONTROLLER_NAME == 'User')?"style='display:block'":"")?>>
-                            <li <?=((CONTROLLER_NAME == 'User' && ACTION_NAME =='index')?"class='active'":"")?>><a href="<{:U('User/index')}>">用户列表</a>
+                            <li <?=((CONTROLLER_NAME == 'User' && ACTION_NAME =='index')?"class='active'":"")?>><a href="<?php echo U('User/index');?>">用户列表</a>
                             </li> 
-                            <li <?=((CONTROLLER_NAME == 'User' && ACTION_NAME =='admin')?"class='active'":"")?>><a href="<{:U('User/admin')}>">管理员列表</a>
+                            <li <?=((CONTROLLER_NAME == 'User' && ACTION_NAME =='admin')?"class='active'":"")?>><a href="<?php echo U('User/admin');?>">管理员列表</a>
                             </li>      
                         </ul>
                     </li>
                     <li class="sub-menu">
                         <a href="javascript:void(0);"><i class="fa fa-table"></i><span>商家管理</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                         <ul <?=((CONTROLLER_NAME == 'Shop')?"style='display:block'":"")?>>
-                            <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='index')?"class='active'":"")?>><a href="<{:U('Shop/index')}>">商家列表</a>
+                            <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='index')?"class='active'":"")?>><a href="<?php echo U('Shop/index');?>">商家列表</a>
                             </li>
-                            <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='categoryList')?"class='active'":"")?>><a href="<{:U('Shop/categoryList')}>">分类列表</a>
+                            <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='categoryList')?"class='active'":"")?>><a href="<?php echo U('Shop/categoryList');?>">分类列表</a>
                             </li>
                         </ul>
                     </li>
                     <li class="sub-menu">
                         <a href="javascript:void(0);"><i class="fa fa-tasks"></i><span>活动管理</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                         <ul <?=(CONTROLLER_NAME == 'Activity' ? "style='display:block'" : "")?>>
-                            <li <?=(CONTROLLER_NAME == 'Activity' && ACTION_NAME == 'index' ? "class='active'" : "")?>><a href="<{:U('Activity/index')}>">活动列表</a>
+                            <li <?=(CONTROLLER_NAME == 'Activity' && ACTION_NAME == 'index' ? "class='active'" : "")?>><a href="<?php echo U('Activity/index');?>">活动列表</a>
                             </li>
-                            <li <?=(CONTROLLER_NAME == 'Activity' && ACTION_NAME == 'add' ? "class='active'" : "")?>><a href="<{:U('Activity/add')}>">新增活动</a>
+                            <li <?=(CONTROLLER_NAME == 'Activity' && ACTION_NAME == 'add' ? "class='active'" : "")?>><a href="<?php echo U('Activity/add');?>">新增活动</a>
                             </li>
                         </ul>
                     </li>
@@ -210,30 +210,21 @@
                         <ul <?=(CONTROLLER_NAME == 'Statistics' ? "style='display:block'" : "")?>>
                             
                             <li <?=(CONTROLLER_NAME == 'Statistics' && ACTION_NAME == 'index' ? "class='active'" : "")?>>
-                                <a href="<{:U('Statistics/index')}>">最新统计</a>
+                                <a href="<?php echo U('Statistics/index');?>">最新统计</a>
                             </li>
                             
                             <li <?=(CONTROLLER_NAME == 'Statistics' && ACTION_NAME == 'customers' ? "class='active'" : "")?>>
-                                <a href="<{:U('Statistics/customers')}>">客户统计</a>
+                                <a href="<?php echo U('Statistics/customers');?>">客户统计</a>
                             </li>
                             
                             <li <?=(CONTROLLER_NAME == 'Statistics' && ACTION_NAME == 'shops' ? "class='active'" : "")?>>
-                                <a href="<{:U('Statistics/shops')}>">商家统计</a>
+                                <a href="<?php echo U('Statistics/shops');?>">商家统计</a>
                             </li>
                         </ul>
                     </li>
                     <li class="sub-menu">
-                        <a href=""><i class="fa fa-envelope"></i><span>权限控制</span><i class="arrow fa fa-angle-right pull-right"></i></a>
-                        <ul <?=(CONTROLLER_NAME == 'Access' ? "style='display:block'" : "")?>>
-                            
-                            <li <?=(CONTROLLER_NAME == 'Access' && ACTION_NAME == 'changeRole' ? "class='active'" : "")?>>
-                                <a href="<{:U('Access/changeRole')}>">用户角色</a>
-                            </li>
-                            
-                            <li <?=(CONTROLLER_NAME == 'Access' && ACTION_NAME == 'customers' ? "class='active'" : "")?>>
-                                <a href="<{:U('Access/customers')}>">角色配置</a>
-                            </li>
-                        </ul>
+                        <a href="<?php echo U('Access/index');?>"><i class="fa fa-envelope"></i><span>权限控制</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+                        
                     </li>
                     
                 </ul>
@@ -242,7 +233,7 @@
         <!--sidebar left end-->
 
         <!-- -- main block start ---->
-        <block name='main'>
+        
             <!--main content start-->
             <section class="main-content-wrapper">
                 <section id="main-content">
@@ -482,7 +473,7 @@
                 </section>
             </section>
             <!--main content end-->
-        </block>
+        
         <!-- -- main block end ---->    
         
         <!--sidebar right start-->
@@ -493,7 +484,7 @@
                 <div class="list-contacts">
                     <a href="javascript:void(0)" class="list-item">
                         <div class="list-item-image">
-                            <img src="__PUBLIC__/Assets/img/avatar.gif" class="img-circle">
+                            <img src="/XDLProject/Enjoyeat/Public/Assets/img/avatar.gif" class="img-circle">
                         </div>
                         <div class="list-item-content">
                             <h4>James Bagian</h4>
@@ -503,7 +494,7 @@
                     </a>
                     <a href="javascript:void(0)" class="list-item">
                         <div class="list-item-image">
-                            <img src="__PUBLIC__/Assets/img/avatar1.gif" class="img-circle">
+                            <img src="/XDLProject/Enjoyeat/Public/Assets/img/avatar1.gif" class="img-circle">
                         </div>
                         <div class="list-item-content">
                             <h4>Jeffrey Ashby</h4>
@@ -513,7 +504,7 @@
                     </a>
                     <a href="javascript:void(0)" class="list-item">
                         <div class="list-item-image">
-                            <img src="__PUBLIC__/Assets/img/avatar2.gif" class="img-circle">
+                            <img src="/XDLProject/Enjoyeat/Public/Assets/img/avatar2.gif" class="img-circle">
                         </div>
                         <div class="list-item-content">
                             <h4>John Douey</h4>
@@ -523,7 +514,7 @@
                     </a>
                     <a href="javascript:void(0)" class="list-item">
                         <div class="list-item-image">
-                            <img src="__PUBLIC__/Assets/img/avatar3.gif" class="img-circle">
+                            <img src="/XDLProject/Enjoyeat/Public/Assets/img/avatar3.gif" class="img-circle">
                         </div>
                         <div class="list-item-content">
                             <h4>Ellen Baker</h4>
@@ -537,7 +528,7 @@
                 <div class="list-contacts">
                     <a href="javascript:void(0)" class="list-item">
                         <div class="list-item-image">
-                            <img src="__PUBLIC__/Assets/img/avatar4.gif" class="img-circle">
+                            <img src="/XDLProject/Enjoyeat/Public/Assets/img/avatar4.gif" class="img-circle">
                         </div>
                         <div class="list-item-content">
                             <h4>Ivan Bella</h4>
@@ -547,7 +538,7 @@
                     </a>
                     <a href="javascript:void(0)" class="list-item">
                         <div class="list-item-image">
-                            <img src="__PUBLIC__/Assets/img/avatar5.gif" class="img-circle">
+                            <img src="/XDLProject/Enjoyeat/Public/Assets/img/avatar5.gif" class="img-circle">
                         </div>
                         <div class="list-item-content">
                             <h4>Gerald Carr</h4>
@@ -557,7 +548,7 @@
                     </a>
                     <a href="javascript:void(0)" class="list-item">
                         <div class="list-item-image">
-                            <img src="__PUBLIC__/Assets/img/avatar6.gif" class="img-circle">
+                            <img src="/XDLProject/Enjoyeat/Public/Assets/img/avatar6.gif" class="img-circle">
                         </div>
                         <div class="list-item-content">
                             <h4>Viktor Gorbatko</h4>
@@ -574,41 +565,41 @@
     <!-- container end -->
     
     <!-- -- js block start ---->
-    <block name='js'>   
+       
         <!--Global JS-->
-        <script src="__PUBLIC__/Assets/js/jquery-1.10.2.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/waypoints/waypoints.min.js"></script>
-        <script src="__PUBLIC__/Assets/js/application.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/js/jquery-1.10.2.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/waypoints/waypoints.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/js/application.js"></script>
         <!--Page Level JS-->
-        <script src="__PUBLIC__/Assets/plugins/countTo/jquery.countTo.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/weather/js/skycons.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/countTo/jquery.countTo.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/weather/js/skycons.js"></script>
         <!-- FlotCharts  -->
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.resize.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.canvas.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.image.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.categories.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.crosshair.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.errorbars.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.fillbetween.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.navigate.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.pie.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.selection.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.stack.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.symbol.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.threshold.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.colorhelpers.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.time.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.example.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.resize.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.canvas.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.image.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.categories.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.crosshair.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.errorbars.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.fillbetween.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.navigate.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.pie.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.selection.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.stack.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.symbol.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.threshold.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.colorhelpers.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.time.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.example.js"></script>
         <!-- Morris  -->
-        <script src="__PUBLIC__/Assets/plugins/morris/js/morris.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/morris/js/raphael.2.1.0.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/morris/js/morris.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/morris/js/raphael.2.1.0.min.js"></script>
         <!-- Vector Map  -->
-        <script src="__PUBLIC__/Assets/plugins/jvectormap/js/jquery-jvectormap-1.2.2.min.js"></script>
-        <script src="__PUBLIC__/Assets/plugins/jvectormap/js/jquery-jvectormap-world-mill-en.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/jvectormap/js/jquery-jvectormap-1.2.2.min.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/jvectormap/js/jquery-jvectormap-world-mill-en.js"></script>
         <!-- ToDo List  -->
-        <script src="__PUBLIC__/Assets/plugins/todo/js/todos.js"></script>
+        <script src="/XDLProject/Enjoyeat/Public/Assets/plugins/todo/js/todos.js"></script>
         <!--Load these page level functions-->
         <script>
         $(document).ready(function() {
@@ -619,11 +610,8 @@
         });
         </script>   
 
-    </block>
+    
     <!-- -- js block end ---->
 </body>
 
 </html>
-
-
-
