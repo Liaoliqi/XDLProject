@@ -48,7 +48,7 @@
             <!--logo start-->
             <div class="brand">
                 <a href="<{:U('Index/index')}>" class="logo">
-                    <span>享吃</span></a>
+                    <span>享吃后台首页</span></a>
             </div>
             <!--logo end-->
             <div class="toggle-navigation toggle-left">
@@ -235,236 +235,97 @@
                 <section id="main-content">
                     <!--tiles start-->
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="dashboard-tile detail tile-red">
-                                <div class="content">
-                                    <h1 class="text-left timer" data-from="0" data-to="180" data-speed="2500"></h1>
-                                    <p>New Users</p>
-                                </div>
-                                <div class="icon"><i class="fa fa-users"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="dashboard-tile detail tile-turquoise">
-                                <div class="content">
-                                    <h1 class="text-left timer" data-from="0" data-to="56" data-speed="2500"></h1>
-                                    <p>New Comments</p>
-                                </div>
-                                <div class="icon"><i class="fa fa-comments"></i>
+                    <div class="col-md-12">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">享吃后台公告</h3>
+                                <div class="actions pull-right">
+                                    <i class="fa fa-chevron-down"></i>
+                                    <i class="fa fa-times"></i>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="dashboard-tile detail tile-blue">
-                                <div class="content">
-                                    <h1 class="text-left timer" data-from="0" data-to="32" data-speed="2500"></h1>
-                                    <p>New Messages</p>
-                                </div>
-                                <div class="icon"><i class="fa fa fa-envelope"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="dashboard-tile detail tile-purple">
-                                <div class="content">
-                                    <h1 class="text-left timer" data-to="105" data-speed="2500"></h1>
-                                    <p>New Sales</p>
-                                </div>
-                                <div class="icon"><i class="fa fa-bar-chart-o"></i>
-                                </div>
+                            <div class="panel-body">
+                                没什么要说的。。。。。
                             </div>
                         </div>
                     </div>
-                    <!--tiles end-->
-                    <!--dashboard charts and map start-->
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Sales for 2014</h3>
-                                    <div class="actions pull-right">
-                                        <i class="fa fa-chevron-down"></i>
-                                        <i class="fa fa-times"></i>
-                                    </div>
-                                </div>
-                                <div class="panel-body">
-                                    <div id="sales-chart" style="height: 250px;"></div>
-                                </div>
+                </div>
+                <!--tiles start-->
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="dashboard-tile detail tile-red">
+                            <div class="content">
+                                <h1 class="text-left timer" data-from="0" data-to="等待数值" data-speed="2500"></h1>
+                                <p class="myfont">今日平台总订单数</p>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Office locations</h3>
-                                    <div class="actions pull-right">
-                                        <i class="fa fa-chevron-down"></i>
-                                        <i class="fa fa-times"></i>
-                                    </div>
-                                </div>
-                                <div class="panel-body">
-                                    <div class="map" id="map" style="height: 250px;"></div>
-                                </div>
+                            <div class="icon"><i class="fa fa-users"></i>
                             </div>
                         </div>
                     </div>
-                    <!--dashboard charts and map end-->
-                    <!--ToDo start-->
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">To do list</h3>
-                                    <div class="actions pull-right">
-                                        <i class="fa fa-chevron-down"></i>
-                                        <i class="fa fa-times"></i>
-                                    </div>
-                                </div>
-                                <div class="panel-body">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <input id="new-todo" type="text" class="form-control" placeholder="What needs to be done?">
-                                                <section id='main'>
-                                                    <ul id='todo-list'></ul>
-                                                </section>
-                                            </div>
-                                            <div class="form-group">
-                                                <button id="todo-enter" class="btn btn-primary pull-right">Submit</button>
-                                                <div id='todo-count'></div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="dashboard-tile detail tile-turquoise">
+                            <div class="content">
+                                <h1 class="text-left timer" data-from="0" data-to="等待数值" data-speed="2500"></h1>
+                                <p class="myfont">今日平台销售总额</p>
                             </div>
-
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h3 class="panel-title">Server Status</h3>
-                                            <div class="actions pull-right">
-                                                <i class="fa fa-chevron-down"></i>
-                                                <i class="fa fa-times"></i>
-                                            </div>
-                                        </div>
-                                        <div class="panel-body">
-
-                                            <span class="sublabel">Memory Usage</span>
-                                            <div class="progress progress-striped">
-                                                <div class="progress-bar progress-bar-info" style="width: 20%">20%</div>
-                                            </div>
-                                            <!-- progress -->
-
-                                            <span class="sublabel">CPU Usage</span>
-                                            <div class="progress progress-striped">
-                                                <div class="progress-bar progress-bar-default" style="width: 60%">60%</div>
-                                            </div>
-                                            <!-- progress -->
-
-                                            <span class="sublabel">Disk Usage</span>
-                                            <div class="progress progress-striped">
-                                                <div class="progress-bar progress-bar-primary" style="width: 80%">80%</div>
-                                            </div>
-                                            <!-- progress -->
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="panel panel-solid-info">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Weather</h3>
-                                    <div class="actions pull-right">
-                                        <i class="fa fa-chevron-down"></i>
-                                        <i class="fa fa-times"></i>
-                                    </div>
-                                </div>
-                                <div class="panel-body">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <h3 class="text-center small-thin uppercase">Today</h3>
-                                            <div class="text-center">
-                                                <canvas id="clear-day" width="110" height="110"></canvas>
-                                                <h4>62°C</h4>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <h3 class="text-center small-thin uppercase">Tonight</h3>
-                                            <div class="text-center">
-                                                <canvas id="partly-cloudy-night" width="110" height="110"></canvas>
-                                                <h4>44°C</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel-footer">
-                                    <div class="row">
-                                        <div class="col-md-2">
-                                            <h6 class="text-center small-thin uppercase">Mon</h6>
-                                            <div class="text-center">
-                                                <canvas id="partly-cloudy-day" width="32" height="32"></canvas>
-                                                <span>48°C</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-2">
-                                            <h6 class="text-center small-thin uppercase">Mon</h6>
-                                            <div class="text-center">
-                                                <canvas id="rain" width="32" height="32"></canvas>
-                                                <span>39°C</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-2">
-                                            <h6 class="text-center small-thin uppercase">Tue</h6>
-                                            <div class="text-center">
-                                                <canvas id="sleet" width="32" height="32"></canvas>
-                                                <span>32°C</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-2">
-                                            <h6 class="text-center small-thin uppercase">Wed</h6>
-                                            <div class="text-center">
-                                                <canvas id="snow" width="32" height="32"></canvas>
-                                                <span>28°C</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-2">
-                                            <h6 class="text-center small-thin uppercase">Thu</h6>
-                                            <div class="text-center">
-                                                <canvas id="wind" width="32" height="32"></canvas>
-                                                <span>40°C</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-2">
-                                            <h6 class="text-center small-thin uppercase">Fri</h6>
-                                            <div class="text-center">
-                                                <canvas id="fog" width="32" height="32"></canvas>
-                                                <span>42°C</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="panel panel-default">
-                                <div class="panel-body">
-                                    <h4>Browser Summary</h4>
-                                    <div id="donut-example"></div>
-                                </div>
+                            <div class="icon"><i class="fa fa-comments"></i>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="dashboard-tile detail tile-blue">
+                            <div class="content">
+                                <h1 class="text-left timer" data-from="0" data-to="等待数值" data-speed="2500"></h1>
+                                <p class="myfont">还没想好</p>
+                            </div>
+                            <div class="icon"><i class="fa fa fa-envelope"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="dashboard-tile detail tile-purple">
+                            <div class="content">
+                                <h1 class="text-left timer" data-to="等待数值" data-speed="2500"></h1>
+                                <p class="myfont">还没想好</p>
+                            </div>
+                            <div class="icon"><i class="fa fa-bar-chart-o"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--tiles end-->
+                <!--dashboard charts and map start-->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">平台总销售额/月</h3>
+                                <div class="actions pull-right">
+                                    <i class="fa fa-chevron-down"></i>
+                                    <i class="fa fa-times"></i>
+                                </div>
+                            </div>
+                            <!-- <div class="panel-body">
+                                <div id="sales-chart" style="height: 250px;"></div>
+                            </div> -->
+                            <div style="width:100%;">
+                                <canvas id="canvas2"></canvas>
+                            </div>
 
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <h4>商品类别销售比例</h4>
+                               <!--  <div id="donut-example"></div> -->
+                                   <div id="canvas-holder" style="width:100%">
+                                        <canvas id="chart-area" />
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                     <!--ToDo end-->
                 </section>
             </section>
@@ -588,6 +449,7 @@
         <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.colorhelpers.min.js"></script>
         <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.time.min.js"></script>
         <script src="__PUBLIC__/Assets/plugins/flot/js/jquery.flot.example.js"></script>
+        <script src="__PUBLIC__/Assets/plugins/flot/js/Chart.bundle.js"></script>
         <!-- Morris  -->
         <script src="__PUBLIC__/Assets/plugins/morris/js/morris.min.js"></script>
         <script src="__PUBLIC__/Assets/plugins/morris/js/raphael.2.1.0.min.js"></script>
@@ -608,6 +470,172 @@
 
     </block>
     <!-- -- js block end ---->
+
+
+    <style>
+        canvas {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+
+        }
+    </style>
+    <script>
+        var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        var randomScalingFactor = function() {
+            return Math.round(Math.random() * 100 * (Math.random() > 0.5 ? -1 : 1));
+        };
+        var randomColorFactor = function() {
+            return Math.round(Math.random() * 255);
+        };
+        var randomColor = function(opacity) {
+            return 'rgba(' + randomColorFactor() + ',' + randomColorFactor() + ',' + randomColorFactor() + ',' + (opacity || '.3') + ')';
+        };
+
+        var config1 = {
+            type: 'line',
+            data: {
+                labels: ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],
+                datasets: [{
+                    label: "销售额",
+                    // data: [randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor()],
+                    data: [100,130,150,170,150,180,200,205,250,280,300,310],
+                    lineTension: 0,
+                    fill: false,
+                    //borderDash: [5, 5],
+                }]
+            },
+            options: {
+                responsive: true,
+                legend: {
+                    position: 'bottom',
+                },
+                hover: {
+                    mode: 'label'
+                },
+                scales: {
+                    xAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: '月份'
+                        }
+                    }],
+                    yAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: '金额'
+                        }
+                    }]
+                },
+                title: {
+                    display: true,
+                    text: '2016年销售额折线图'
+                }
+            }
+        };
+
+        $.each(config1.data.datasets, function(i, dataset) {
+            var background = randomColor(0.5);
+            dataset.borderColor = 'rgba(26,188,156,1)';
+            dataset.backgroundColor = 'rgba(26,188,156,1)';
+            // dataset.borderColor = background;
+            // dataset.backgroundColor = background;
+            // dataset.pointBorderColor = background;
+            // dataset.pointBackgroundColor = background;
+            dataset.pointBorderColor =  'rgba(26,188,156,1)';
+            dataset.pointBackgroundColor =  'rgba(255,255,255,1)';
+            dataset.pointBorderWidth = 3;
+        });
+
+        // window.onload = function() {
+        //     var ctx1 = document.getElementById("canvas2").getContext("2d");
+        //     window.myLine = new Chart(ctx1, config);
+        // };
+    </script>
+    <!-- <style>
+    canvas {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    </style> -->
+    <script>
+    $(document).ready(function() {
+        app.timer();
+        app.map();
+        app.weather();
+        app.morrisPie();
+
+    });
+    </script>  
+    <script>
+
+    // var randomScalingFactor = function() {
+    //     return Math.round(Math.random() * 100);
+    // };
+    // var randomColorFactor = function() {
+    //     return Math.round(Math.random() * 255);
+    // };
+    // var randomColor = function(opacity) {
+    //     return 'rgba(' + randomColorFactor() + ',' + randomColorFactor() + ',' + randomColorFactor() + ',' + (opacity || '.3') + ')';
+    // };
+
+    var config = {
+        type: 'doughnut',
+        data: {
+            datasets: [{
+                data: [
+                    200,
+                    213,
+                    234,
+                    88,
+                    534,
+                ],
+                backgroundColor: [
+                    "#F7464A",
+                    "#46BFBD",
+                    "#FDB45C",
+                    "#949FB1",
+                    "#4D5360",
+                ],
+                label: 'Dataset 1'
+            }],
+            labels: [
+                "套餐",
+                "单点",
+                "精品",
+                "汤类",
+                "甜点"
+            ]
+        },
+        options: {
+            responsive: true,
+            legend: {
+                position: 'top',
+            },
+            title: {
+                display: true,
+                text: ''
+            },
+            animation: {
+                animateScale: true,
+                animateRotate: true
+            }
+        }
+    };
+
+    window.onload = function() {
+        var ctx = document.getElementById("chart-area").getContext("2d");
+        window.myDoughnut = new Chart(ctx, config);
+
+        var ctx1 = document.getElementById("canvas2").getContext("2d");
+            window.myLine = new Chart(ctx1, config1);
+
+    };
+
+    </script> 
 </body>
 
 </html>

@@ -1,0 +1,32 @@
+<extend name='Index/index'/>
+
+    <block name="main">
+    <section id="error-container">
+
+        <div class="block-error">
+
+            <header>
+                <h1 class="error">404</h1>
+                <p class="text-center">Page not found</p>
+            </header>
+
+            <p class="text-center">Houston, we have a problem. We're having trouble loading the page you are looking for.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="btn btn-info btn-block btn-3d" href="index.html">Back to Dashboard</a>
+                </div>
+                <div class="col-md-6">
+                    <button class="btn btn-primary btn-block btn-3d" onclick="history.back();">Previous Page</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    </block>
+    <!--Global JS-->
+    <block name="js">
+    <script src="__PUBLIC__/Assets/js/jquery-1.10.2.min.js"></script>
+    <script src="__PUBLIC__/Assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/Assets/plugins/waypoints/waypoints.min.js"></script>
+    <script src="__PUBLIC__/Assets/js/application.js"></script>
+    </block>

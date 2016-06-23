@@ -1,0 +1,15 @@
+[ 2016-06-23T22:31:39+08:00 ] ::1 /git/Enjoyeat/Home/User/doLogin?username=yb&password=123456&vcode=6NH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `enjoyeat_user_login` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `enjoyeat_user_login` WHERE ( `username`='yb' or `email`='yb' ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-06-23T22:31:48+08:00 ] ::1 /git/Enjoyeat/Home/User/sendMail?email=18020225275%40163.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+

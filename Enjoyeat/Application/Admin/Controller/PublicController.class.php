@@ -4,9 +4,36 @@ namespace Admin\Controller;
 use Think\Controller;
 class PublicController extends Controller{
 
+
+	public function _empty()
+	{
+		if(!isset($_SESSION['user_info'])){
+			$this->display('login');
+		}else{
+			$this->redirect('public/404');
+		}
+
+	}
+
+
 	public function login()
 	{
-		$this->display();
+		if(!isset($_SESSION['user_info'])){
+			$this->display();	
+		}else{
+			$this->redirect('Index/index');
+		}
+	}
+
+
+	public function index()
+	{
+		if(!isset($_SESSION['user_info'])){
+			$this->display('login');	
+		}else{
+			$this->redirect('Index/index');
+		}
+		
 	}
 
 	public function doLogin()
