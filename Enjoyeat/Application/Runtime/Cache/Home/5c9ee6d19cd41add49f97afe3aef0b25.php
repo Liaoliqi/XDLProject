@@ -3,6 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>登录-叫外卖上享吃</title>
+<<<<<<< HEAD
+	<link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/assets/css/font-awesome.min.css">
+	<script src="/1/gg/XDLProject/Enjoyeat/Public/assets/js/jquery-1.10.2.min.js"></script>
+	<script src="/1/gg/XDLProject/Enjoyeat/Public/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/1/gg/XDLProject/Enjoyeat/Public/assets/plugins/waypoints/waypoints.min.js"></script>
+	<script src="/1/gg/XDLProject/Enjoyeat/Public/assets/js/application.js"></script>
+=======
 	<meta rel="icon" href="/git/Enjoyeat/Public/Home/Images/favicon1.png" size="16x16" type="image/png">
 	<link rel="stylesheet" href="/git/Enjoyeat/Public/assets/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/git/Enjoyeat/Public/assets/css/font-awesome.min.css">
@@ -10,6 +18,7 @@
 	<script src="/git/Enjoyeat/Public/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/git/Enjoyeat/Public/assets/plugins/waypoints/waypoints.min.js"></script>
 	<script src="/git/Enjoyeat/Public/assets/js/application.js"></script>
+>>>>>>> d1c489224975aa9496c849c60bb45d0269e25bd5
 	<style>
 		html {
 		    box-sizing: border-box;
@@ -242,7 +251,11 @@
         <!-- ngIf: !noGlobalWrap -->
       	<header class="account-header ng-scope" ng-if="!noGlobalWrap">
 			<a href="http://www.ele.me">
+<<<<<<< HEAD
+				<img src="/1/gg/XDLProject/Enjoyeat/Public/Home/images/logo.png" alt="">
+=======
 				<img src="/git/Enjoyeat/Public/Home/images/logo.png" alt="">
+>>>>>>> d1c489224975aa9496c849c60bb45d0269e25bd5
 			</a>
 		</header>
         <!-- ngView:  -->
