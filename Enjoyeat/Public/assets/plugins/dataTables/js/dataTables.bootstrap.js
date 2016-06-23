@@ -9,7 +9,7 @@ $.extend( true, $.fn.dataTable.defaults, {
 	}
 } );
 
-
+ 
 /* Default class modification */
 $.extend( $.fn.dataTableExt.oStdClasses, {
 	"sWrapper": "dataTables_wrapper form-inline",
