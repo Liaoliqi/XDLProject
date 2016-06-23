@@ -7,5 +7,4 @@ class IndexController extends HomeController {
     	$this->assign('title','前台首页');
         $this->display();
     }
-	
 }

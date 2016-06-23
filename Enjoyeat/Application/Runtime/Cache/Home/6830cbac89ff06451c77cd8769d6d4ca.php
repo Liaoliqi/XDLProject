@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<!-- size="16x16 | 32x32 | 48x48 | 62x62"  -->
+	<meta rel="icon" href="/git/Enjoyeat/Public/Home/images/favicon1.png" size="16x16" type="image/png">
 	<title><?php echo ($title); ?></title>
 </head>
 <body>
