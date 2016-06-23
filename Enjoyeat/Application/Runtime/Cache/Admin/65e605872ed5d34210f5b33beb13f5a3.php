@@ -263,19 +263,22 @@
                                         <th>头像</th>
                                         <th>邮箱</th>
                                         <th>联系手机</th>
-                                        <th>详情地址</th>
+                                        <th>账户积分</th>
                                     </tr>
                                 </thead>
-
+                                <?php $i=1?>
                                 <tbody>
-                                    <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-                                        <td>1</td>
+                                    <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                                        <td><?php  echo $i++ ?></td>
                                         <td><?php echo ($vo["username"]); ?></td>
                                         <td>2345</td>
-                                        <td>23232@qq.com</td>
+                                        <td><?php echo ($vo["email"]); ?></td>
                                         <td>1234567876543</td>
-                                        <td>铜锣湾</td>
+                                        <td><?php echo ($vo["point"]); ?></td>
                                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                                    <!-- <tr>
+                                        <th><?php echo ($show); ?></th>
+                                    </tr> -->
                                 </tbody>
                             </table>
 
@@ -387,12 +390,38 @@
     <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/nanoScroller/jquery.nanoscroller.min.js"></script>
     <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/js/application.js"></script>
     <!--Page Leve JS -->
-    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/dataTables/js/jquery.dataTables.js"></script>
-    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/dataTables/js/dataTables.bootstrap.js"></script>
+     
+    <!--实现搜索分页-->
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/dataTables/js/jquery.dataTables.min.js"></script>
+
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/dataTables/js/dataTables.bootstrap.js"></script> 
+
+
+
     <script>
     $(document).ready(function() {
-        $('#example').dataTable();
+        $('#example').dataTable({
+                "language": {
+                          "sProcessing": "<img src='/images/datatable_loading.gif'>  努力加载数据中.",
+                          "sLengthMenu": "每页显示 _MENU_ 条记录",
+                          "sZeroRecords": "抱歉， 没有找到",
+                          "sInfo": "从 _START_ 到 _END_ /共 _TOTAL_ 条数据",
+                          "sInfoEmpty": "没有数据",
+                          "sInfoFiltered": "(从 _MAX_ 条数据中检索)",
+                          "sZeroRecords": "没有检索到数据",
+                          "sSearch": "模糊查询:  ",
+                          "oPaginate": {
+                              "sFirst": "首页",
+                              "sPrevious": "前一页",
+                              "sNext": "后一页",
+                              "sLast": "尾页"
+                          }
+                      },
+                "bPaginate":true,
+                "bSort":true,
+            });
     });
+
     </script>
 
     <!-- -- js block end ---->

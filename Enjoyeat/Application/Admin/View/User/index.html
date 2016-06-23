@@ -34,21 +34,24 @@
                                         <th>头像</th>
                                         <th>邮箱</th>
                                         <th>联系手机</th>
-                                        <th>详情地址</th>
+                                        <th>账户积分</th>
                                     </tr>
                                 </thead>
-
+                                <?php $i=1?>
                                 <tbody>
-                                    <volist  name="list" id="vo">
+                                    <volist  name="data" id="vo">
                                     <tr>
-                                        <td>1</td>
+                                        <td><?php  echo $i++ ?></td>
                                         <td><{$vo.username}></td>
                                         <td>2345</td>
-                                        <td>23232@qq.com</td>
+                                        <td><{$vo.email}></td>
                                         <td>1234567876543</td>
-                                        <td>铜锣湾</td>
+                                        <td><{$vo.point}></td>
                                     </tr>
                                     </volist>
+                                    <!-- <tr>
+                                        <th><{$show}></th>
+                                    </tr> -->
                                 </tbody>
                             </table>
 
@@ -70,11 +73,37 @@
     <script src="__PUBLIC__/Assets/plugins/nanoScroller/jquery.nanoscroller.min.js"></script>
     <script src="__PUBLIC__/Assets/js/application.js"></script>
     <!--Page Leve JS -->
-    <script src="__PUBLIC__/Assets/plugins/dataTables/js/jquery.dataTables.js"></script>
-    <script src="__PUBLIC__/Assets/plugins/dataTables/js/dataTables.bootstrap.js"></script>
+     
+    <!--实现搜索分页-->
+    <script src="__PUBLIC__/Assets/plugins/dataTables/js/jquery.dataTables.min.js"></script>
+
+    <script src="__PUBLIC__/Assets/plugins/dataTables/js/dataTables.bootstrap.js"></script> 
+
+
+
     <script>
     $(document).ready(function() {
-        $('#example').dataTable();
+        $('#example').dataTable({
+                "language": {
+                          "sProcessing": "<img src='/images/datatable_loading.gif'>  努力加载数据中.",
+                          "sLengthMenu": "每页显示 _MENU_ 条记录",
+                          "sZeroRecords": "抱歉， 没有找到",
+                          "sInfo": "从 _START_ 到 _END_ /共 _TOTAL_ 条数据",
+                          "sInfoEmpty": "没有数据",
+                          "sInfoFiltered": "(从 _MAX_ 条数据中检索)",
+                          "sZeroRecords": "没有检索到数据",
+                          "sSearch": "模糊查询:  ",
+                          "oPaginate": {
+                              "sFirst": "首页",
+                              "sPrevious": "前一页",
+                              "sNext": "后一页",
+                              "sLast": "尾页"
+                          }
+                      },
+                "bPaginate":true,
+                "bSort":true,
+            });
     });
+
     </script>
 </block>
