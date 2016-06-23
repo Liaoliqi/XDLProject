@@ -2,10 +2,10 @@
 <head>
 	<meta charset="utf-8">
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="/dev/XDLProject/Enjoyeat/Public/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="/1/gg/XDLProject/Enjoyeat/Public/bootstrap/css/bootstrap.min.css" />
 	<style type="text/css">
 		body{
-			background-image: url("/dev/XDLProject/Enjoyeat/Public/Shop/images/header-bg.jpg");
+			background-image: url("/1/gg/XDLProject/Enjoyeat/Public/Shop/images/header-bg.jpg");
 			padding: 20px;
 			color: #eee;
 		}
@@ -16,14 +16,14 @@
 		<div class="row">
 			<div class="col-md-2"></div>
 			<div class="col-md-8" style="text-align:center;">
-				<h2><img src="/dev/XDLProject/Enjoyeat/Public/Shop/images/logosm.png">商家平台</h2>
+				<h2><img src="/1/gg/XDLProject/Enjoyeat/Public/Shop/images/logosm.png">商家平台</h2>
 			</div>
 			<div class="col-md-2"></div>
 		</div>
 		<div class="row">
 			<div class="col-md-2"></div>
 			<div class="col-md-8">
-				<img src="/dev/XDLProject/Enjoyeat/Public/Shop/images/header-promotion.png">
+				<img src="/1/gg/XDLProject/Enjoyeat/Public/Shop/images/header-promotion.png">
 				<h4>把您餐厅开上享吃</h4>
 			</div>
 			<div class="col-md-2"></div>

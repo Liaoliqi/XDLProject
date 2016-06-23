@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>开店申请</title>
-	<link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/bootstrap/css/bootstrap.min.css">
-	<script src="/dev/XDLProject/Enjoyeat/Public/bootstrap/js/jquery-1.11.3.min.js"></script>
-	<script src="/dev/XDLProject/Enjoyeat/Public/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/bootstrap/css/bootstrap.min.css">
+	<script src="/1/gg/XDLProject/Enjoyeat/Public/bootstrap/js/jquery-1.11.3.min.js"></script>
+	<script src="/1/gg/XDLProject/Enjoyeat/Public/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container-fluid">

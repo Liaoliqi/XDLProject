@@ -308,13 +308,19 @@
                                             <h4 class="modal-title" id="myModalLabel">商家详情</h4>
                                           </div>
                                           <div class="modal-body">
-                                            <p>商家名称</p>
-                                            <p>商家名称</p>
-                                            <p>商家名称</p>
-                                            <p>商家名称</p>
-                                            <p>商家名称</p>
-                                            <p>商家名称</p>
-                                            <p>商家名称</p>
+                                            <div class="containter">
+                                                <div class="row">
+                                                    <div class="col-md-6">店铺名称</div>
+                                                    <div class="col-md-6"><img width="50px" height="80px" src="/1/gg/XDLProject/Enjoyeat/Public/Admin/IMG_2907.jpg" alt=""></div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">店铺公告</div>
+                                                    <div class="col-md-6">法人</div>
+                                                 
+                                                </div>
+                                                <p>店家没人~~</p>
+                                                <p>随便抢~~</p>
+                                            </div>
                                           </div>
                                           <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
