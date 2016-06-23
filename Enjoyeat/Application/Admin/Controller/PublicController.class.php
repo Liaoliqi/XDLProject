@@ -4,9 +4,16 @@ namespace Admin\Controller;
 use Think\Controller;
 class PublicController extends Controller{
 
+
 	public function login()
 	{
 		$this->display();
+	}
+
+
+	public function index()
+	{
+		$this->display('login');
 	}
 
 	public function doLogin()

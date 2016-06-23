@@ -230,107 +230,28 @@
 
         <!-- -- main block start ---->
         
-            <!--main content start-->
-            <section class="main-content-wrapper">
-                <section id="main-content">
-                    <!--tiles start-->
-                    <div class="row">
-                    <div class="col-md-12">
-                        <div class="panel panel-info">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">享吃后台公告</h3>
-                                <div class="actions pull-right">
-                                    <i class="fa fa-chevron-down"></i>
-                                    <i class="fa fa-times"></i>
-                                </div>
-                            </div>
-                            <div class="panel-body">
-                                没什么要说的。。。。。
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--tiles start-->
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-red">
-                            <div class="content">
-                                <h1 class="text-left timer" data-from="0" data-to="等待数值" data-speed="2500"></h1>
-                                <p class="myfont">今日平台总订单数</p>
-                            </div>
-                            <div class="icon"><i class="fa fa-users"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-turquoise">
-                            <div class="content">
-                                <h1 class="text-left timer" data-from="0" data-to="等待数值" data-speed="2500"></h1>
-                                <p class="myfont">今日平台销售总额</p>
-                            </div>
-                            <div class="icon"><i class="fa fa-comments"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-blue">
-                            <div class="content">
-                                <h1 class="text-left timer" data-from="0" data-to="等待数值" data-speed="2500"></h1>
-                                <p class="myfont">还没想好</p>
-                            </div>
-                            <div class="icon"><i class="fa fa fa-envelope"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-purple">
-                            <div class="content">
-                                <h1 class="text-left timer" data-to="等待数值" data-speed="2500"></h1>
-                                <p class="myfont">还没想好</p>
-                            </div>
-                            <div class="icon"><i class="fa fa-bar-chart-o"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--tiles end-->
-                <!--dashboard charts and map start-->
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">平台总销售额/月</h3>
-                                <div class="actions pull-right">
-                                    <i class="fa fa-chevron-down"></i>
-                                    <i class="fa fa-times"></i>
-                                </div>
-                            </div>
-                            <!-- <div class="panel-body">
-                                <div id="sales-chart" style="height: 250px;"></div>
-                            </div> -->
-                            <div style="width:100%;">
-                                <canvas id="canvas2"></canvas>
-                            </div>
+    <section id="error-container">
 
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <h4>商品类别销售比例</h4>
-                               <!--  <div id="donut-example"></div> -->
-                                   <div id="canvas-holder" style="width:100%">
-                                        <canvas id="chart-area" />
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="block-error">
+
+            <header>
+                <h1 class="error">404</h1>
+                <p class="text-center">Page not found</p>
+            </header>
+
+            <p class="text-center">Houston, we have a problem. We're having trouble loading the page you are looking for.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="btn btn-info btn-block btn-3d" href="index.html">Back to Dashboard</a>
                 </div>
-                    <!--ToDo end-->
-                </section>
-            </section>
-            <!--main content end-->
-        
+                <div class="col-md-6">
+                    <button class="btn btn-primary btn-block btn-3d" onclick="history.back();">Previous Page</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
         <!-- -- main block end ---->    
         
         <!--sidebar right start-->
@@ -422,52 +343,11 @@
     <!-- container end -->
     
     <!-- -- js block start ---->
-       
-        <!--Global JS-->
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/js/jquery-1.10.2.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/waypoints/waypoints.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/js/application.js"></script>
-        <!--Page Level JS-->
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/countTo/jquery.countTo.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/weather/js/skycons.js"></script>
-        <!-- FlotCharts  -->
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.resize.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.canvas.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.image.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.categories.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.crosshair.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.errorbars.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.fillbetween.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.navigate.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.pie.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.selection.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.stack.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.symbol.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.threshold.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.colorhelpers.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.time.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.example.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/Chart.bundle.js"></script>
-        <!-- Morris  -->
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/morris/js/morris.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/morris/js/raphael.2.1.0.min.js"></script>
-        <!-- Vector Map  -->
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/jvectormap/js/jquery-jvectormap-1.2.2.min.js"></script>
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/jvectormap/js/jquery-jvectormap-world-mill-en.js"></script>
-        <!-- ToDo List  -->
-        <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/todo/js/todos.js"></script>
-        <!--Load these page level functions-->
-        <script>
-        $(document).ready(function() {
-            app.timer();
-            app.map();
-            app.weather();
-            app.morrisPie();
-        });
-        </script>   
-
+    
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/js/jquery-1.10.2.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/waypoints/waypoints.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/js/application.js"></script>
     
     <!-- -- js block end ---->
 

@@ -13,24 +13,24 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/git/Enjoyeat/Public/Assets/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/1/gg/XDLProject/Enjoyeat/Public/Assets/img/favicon.ico" type="image/x-icon">
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="/git/Enjoyeat/Public/Assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Fonts from Font Awsome -->
-    <link rel="stylesheet" href="/git/Enjoyeat/Public/Assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/Assets/css/font-awesome.min.css">
     <!-- CSS Animate -->
-    <link rel="stylesheet" href="/git/Enjoyeat/Public/Assets/css/animate.css">
+    <link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/Assets/css/animate.css">
     <!-- Custom styles for this theme -->
-    <link rel="stylesheet" href="/git/Enjoyeat/Public/Assets/css/main.css">
+    <link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/Assets/css/main.css">
     <!-- Fonts -->
     <!-- <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'> -->
     <!-- Feature detection -->
-    <script src="/git/Enjoyeat/Public/Assets/js/modernizr-2.6.2.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/js/modernizr-2.6.2.min.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="/git/Enjoyeat/Public/Assets/js/html5shiv.js"></script>
-    <script src="/git/Enjoyeat/Public/Assets/js/respond.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/js/html5shiv.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/js/respond.min.js"></script>
     <![endif]-->
 </head>
 
@@ -77,11 +77,11 @@
 
     </section>
     <!--Global JS-->
-    <script src="/git/Enjoyeat/Public/Assets/js/jquery-1.10.2.min.js"></script>
-    <script src="/git/Enjoyeat/Public/Assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/git/Enjoyeat/Public/Assets/plugins/waypoints/waypoints.min.js"></script>
-    <script src="/git/Enjoyeat/Public/Assets/plugins/nanoScroller/jquery.nanoscroller.min.js"></script>
-    <script src="/git/Enjoyeat/Public/Assets/js/application.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/js/jquery-1.10.2.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/waypoints/waypoints.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/nanoScroller/jquery.nanoscroller.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/js/application.js"></script>
 
 </body>
 

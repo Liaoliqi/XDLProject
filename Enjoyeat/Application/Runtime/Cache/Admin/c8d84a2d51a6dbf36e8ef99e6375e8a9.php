@@ -230,107 +230,16 @@
 
         <!-- -- main block start ---->
         
-            <!--main content start-->
-            <section class="main-content-wrapper">
-                <section id="main-content">
-                    <!--tiles start-->
-                    <div class="row">
-                    <div class="col-md-12">
-                        <div class="panel panel-info">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">享吃后台公告</h3>
-                                <div class="actions pull-right">
-                                    <i class="fa fa-chevron-down"></i>
-                                    <i class="fa fa-times"></i>
-                                </div>
-                            </div>
-                            <div class="panel-body">
-                                没什么要说的。。。。。
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--tiles start-->
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-red">
-                            <div class="content">
-                                <h1 class="text-left timer" data-from="0" data-to="等待数值" data-speed="2500"></h1>
-                                <p class="myfont">今日平台总订单数</p>
-                            </div>
-                            <div class="icon"><i class="fa fa-users"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-turquoise">
-                            <div class="content">
-                                <h1 class="text-left timer" data-from="0" data-to="等待数值" data-speed="2500"></h1>
-                                <p class="myfont">今日平台销售总额</p>
-                            </div>
-                            <div class="icon"><i class="fa fa-comments"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-blue">
-                            <div class="content">
-                                <h1 class="text-left timer" data-from="0" data-to="等待数值" data-speed="2500"></h1>
-                                <p class="myfont">还没想好</p>
-                            </div>
-                            <div class="icon"><i class="fa fa fa-envelope"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="dashboard-tile detail tile-purple">
-                            <div class="content">
-                                <h1 class="text-left timer" data-to="等待数值" data-speed="2500"></h1>
-                                <p class="myfont">还没想好</p>
-                            </div>
-                            <div class="icon"><i class="fa fa-bar-chart-o"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--tiles end-->
-                <!--dashboard charts and map start-->
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">平台总销售额/月</h3>
-                                <div class="actions pull-right">
-                                    <i class="fa fa-chevron-down"></i>
-                                    <i class="fa fa-times"></i>
-                                </div>
-                            </div>
-                            <!-- <div class="panel-body">
-                                <div id="sales-chart" style="height: 250px;"></div>
-                            </div> -->
-                            <div style="width:100%;">
-                                <canvas id="canvas2"></canvas>
-                            </div>
+	<!--main content start-->
+	<section class="main-content-wrapper">
+	    <section id="main-content">
+	        
+	        activity index
+	        
+	    </section>
+	</section>
+	<!--main content end-->
 
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <h4>商品类别销售比例</h4>
-                               <!--  <div id="donut-example"></div> -->
-                                   <div id="canvas-holder" style="width:100%">
-                                        <canvas id="chart-area" />
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                    <!--ToDo end-->
-                </section>
-            </section>
-            <!--main content end-->
-        
         <!-- -- main block end ---->    
         
         <!--sidebar right start-->
