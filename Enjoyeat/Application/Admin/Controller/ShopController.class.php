@@ -10,7 +10,7 @@ class ShopController extends AdminController {
     } 
 
     public function checkshop(){
-    	$this->assign('title','商家分类列表');
+    	$this->assign('title','商家审核');
 		$this->display();
     }
 

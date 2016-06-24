@@ -7,6 +7,9 @@ class UserController extends AdminController {
     	$this->assign('title','用户列表');
     	$model=M('user_login');
 
+
+
+
         //分页类
     	// $count = $model->count();
     	// $page = new \Think\Page($count,'5');
@@ -16,8 +19,9 @@ class UserController extends AdminController {
 
     	// $this->assign('data',$data);
     	// $this->assign('show',$show);
+// 
+        $data=$model->alias('ul')->join('enjoyeat_user_info ui ON ul.id = ui.uid')->select();
 
-        $data=$model->select();
         $this->assign('data',$data);
 		$this->display();
     }

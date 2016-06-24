@@ -42,7 +42,7 @@ class PublicController extends Controller{
 		$password=I('post.password');
 
 		$model = M('user_login');
-		$data = $model->where(array('username'=>$username))->find();
+		$data = $model->where(array('username'=>$username,'email'=>$username,'_logic'=>'or'))->find();
 		if(is_null($data)){
 			$this->error('您使用的用户不存在!');
 			exit;

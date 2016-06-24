@@ -2,3 +2,19 @@
 ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
 
 
+[ 2016-06-24T10:56:28+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/User/index.html
+ERR: 1054:Unknown column 'enjoyeat_user_info.uid' in 'on clause'
+ [ SQL璇彞 ] : SELECT * FROM `enjoyeat_user_login` INNER JOIN enjoyeat_user_info ui ON enjoyeat_user_login.id = enjoyeat_user_info.uid  
+
+[ 2016-06-24T10:58:27+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/User/index.html
+ERR: 1054:Unknown column 'enjoyeat_user_info.uid' in 'on clause'
+ [ SQL璇彞 ] : SELECT * FROM `enjoyeat_user_login` INNER JOIN enjoyeat_user_info ui ON enjoyeat_user_login.id = enjoyeat_user_info.uid  
+
+[ 2016-06-24T11:02:45+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/User/index.html
+ERR: 1054:Unknown column 'enjoyeat_user_info.uid' in 'on clause'
+ [ SQL璇彞 ] : SELECT * FROM `enjoyeat_user_login` INNER JOIN enjoyeat_user_info ui ON enjoyeat_user_login.id = enjoyeat_user_info.uid  
+
+[ 2016-06-24T12:01:22+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Admin/User/index.html
+ERR: 1054:Unknown column 'enjoyeat_user_info.uid' in 'on clause'
+ [ SQL璇彞 ] : SELECT * FROM `enjoyeat_user_login` INNER JOIN enjoyeat_user_info ui ON enjoyeat_user_login.id = enjoyeat_user_info.uid  
+

@@ -192,7 +192,7 @@
                         <ul <?=((CONTROLLER_NAME == 'Shop')?"style='display:block'":"")?>>
                             <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='index')?"class='active'":"")?>><a href="<?php echo U('Shop/index');?>">商家列表</a>
                             </li>
-                            <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='categoryList')?"class='active'":"")?>><a href="<?php echo U('Shop/checkshop');?>">商家审核</a>
+                            <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='checkshop')?"class='active'":"")?>><a href="<?php echo U('Shop/checkshop');?>">商家审核</a>
                             </li>
                         </ul>
                     </li>

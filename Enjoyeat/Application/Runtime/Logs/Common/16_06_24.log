@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [ 2016-06-24T10:21:03+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Assets/css/my.css
 ERR: 无法加载模块:Public
 
@@ -65,5 +66,89 @@ ERR: 无法加载模块:Public
 ERR: 无法加载模块:Public
 
 [ 2016-06-24T10:24:03+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Shop/ready/analytics.js
+=======
+[ 2016-06-24T10:26:25+08:00 ] ::1 /git/Enjoyeat/Public/Assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T10:26:27+08:00 ] ::1 /git/Enjoyeat/Public/Assets/img/favicon.ico
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T10:27:18+08:00 ] ::1 /git/Enjoyeat/Public/Shop/ready/ga.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T10:27:18+08:00 ] ::1 /git/Enjoyeat/Public/Shop/ready/app.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T10:27:18+08:00 ] ::1 /git/Enjoyeat/Public/Shop/ready/nevermore.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T10:27:18+08:00 ] ::1 /git/Enjoyeat/Public/Shop/ready/analytics.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T10:27:18+08:00 ] ::1 /git/Enjoyeat/Public/Shop/ready/vendor.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T10:27:22+08:00 ] ::1 /git/Enjoyeat/Public/Shop/ready/vendor.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T10:27:22+08:00 ] ::1 /git/Enjoyeat/Public/Shop/ready/ga.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T10:27:22+08:00 ] ::1 /git/Enjoyeat/Public/Shop/ready/app.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T10:27:22+08:00 ] ::1 /git/Enjoyeat/Public/Shop/ready/nevermore.js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T10:27:22+08:00 ] ::1 /git/Enjoyeat/Public/Shop/ready/analytics.js
+>>>>>>> 6104b0a16b6bf556d832d83765c73d4f4376dda1
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T10:47:56+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Images/_defualt.png
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T11:51:23+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Assets/css/my.css
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T14:08:14+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Assets/img/favicon.ico
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T14:43:53+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Home/404/textStatic(1).js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T14:43:53+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Home/404/appqc.852963(1).png
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T14:43:53+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Home/404/0bf0f273cc4d059cd23f49c1255f1png.png
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T14:47:26+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Home/404/textStatic(1).js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T14:47:43+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Home/404/textStatic(1).js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T14:47:43+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Home/404/textStatic(1).js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T14:47:46+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Home/404/textStatic(1).js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T14:48:25+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Home/404/textStatic(1).js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T14:48:38+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Home/404/textStatic(1).js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T14:48:54+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Home/404/textStatic(1).js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T14:49:03+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Home/404/textStatic(1).js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T14:50:32+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Home/404/textStatic(1).js
+ERR: 无法加载模块:Public
+
+[ 2016-06-24T14:50:49+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Public/Home/404/textStatic(1).js
 ERR: 无法加载模块:Public
 

@@ -22,7 +22,7 @@ class UserController extends HomeController {
 
 
     public function index(){
-        $this->assign('title','用户中心');
+       
         $this->display();
     }
 

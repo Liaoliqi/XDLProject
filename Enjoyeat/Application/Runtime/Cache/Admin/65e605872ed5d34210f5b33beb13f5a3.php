@@ -192,7 +192,9 @@
                         <ul <?=((CONTROLLER_NAME == 'Shop')?"style='display:block'":"")?>>
                             <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='index')?"class='active'":"")?>><a href="<?php echo U('Shop/index');?>">商家列表</a>
                             </li>
-                            <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='categoryList')?"class='active'":"")?>><a href="<?php echo U('Shop/checkshop');?>">商家审核</a>
+                            <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='checkshop')?"class='active'":"")?>><a href="<?php echo U('Shop/checkshop');?>">商家审核</a>
+                            </li>
+                            <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='categoryList')?"class='active'":"")?>><a href="<?php echo U('Shop/categoryList');?>">商家审核</a>
                             </li>
                         </ul>
                     </li>
@@ -284,7 +286,7 @@
                                     <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                                         <td><?php  echo $i++ ?></td>
                                         <td><?php echo ($vo["username"]); ?></td>
-                                        <td>2345</td>
+                                        <td><img width="25" src="/1/gg/XDLProject/Enjoyeat/Public/Images/<?php echo ($vo["avatar"]); ?>" alt=""></td>
                                         <td><?php echo ($vo["email"]); ?></td>
                                         <td>1234567876543</td>
                                         <td><?php echo ($vo["point"]); ?></td>

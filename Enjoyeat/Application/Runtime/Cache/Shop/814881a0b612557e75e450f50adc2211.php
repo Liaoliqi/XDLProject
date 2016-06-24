@@ -3,9 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>开店申请</title>
+<<<<<<< HEAD
 	<link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/bootstrap/css/bootstrap.min.css">
 	<script src="/1/gg/XDLProject/Enjoyeat/Public/bootstrap/js/jquery-1.11.3.min.js"></script>
 	<script src="/1/gg/XDLProject/Enjoyeat/Public/bootstrap/js/bootstrap.min.js"></script>
+=======
+	<link rel="stylesheet" href="/git/Enjoyeat/Public/bootstrap/css/bootstrap.min.css">
+	<script src="/git/Enjoyeat/Public/bootstrap/js/jquery-1.11.3.min.js"></script>
+	<script src="/git/Enjoyeat/Public/bootstrap/js/bootstrap.min.js"></script>
+>>>>>>> 6104b0a16b6bf556d832d83765c73d4f4376dda1
 </head>
 <body>
 	<div class="container-fluid">
