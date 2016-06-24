@@ -3,13 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title><?php echo ($title); ?></title>
-	<link rel="icon" href="/git/Enjoyeat/Public/Home/Images/favicon1.png" size="16x16" type="image/png">
-	<link rel="stylesheet" href="/git/Enjoyeat/Public/assets/plugins/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/git/Enjoyeat/Public/assets/css/font-awesome.min.css">
-	<script src="/git/Enjoyeat/Public/assets/js/jquery-1.10.2.min.js"></script>
-	<script src="/git/Enjoyeat/Public/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-	<script src="/git/Enjoyeat/Public/assets/plugins/waypoints/waypoints.min.js"></script>
-	<script src="/git/Enjoyeat/Public/assets/js/application.js"></script>
+	<link rel="icon" href="/1/gg/XDLProject/Enjoyeat/Public/Home/Images/favicon1.png" size="16x16" type="image/png">
+	<link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/assets/css/font-awesome.min.css">
+	<script src="/1/gg/XDLProject/Enjoyeat/Public/assets/js/jquery-1.10.2.min.js"></script>
+	<script src="/1/gg/XDLProject/Enjoyeat/Public/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/1/gg/XDLProject/Enjoyeat/Public/assets/plugins/waypoints/waypoints.min.js"></script>
+	<script src="/1/gg/XDLProject/Enjoyeat/Public/assets/js/application.js"></script>
 	<style>
 		html {
 		    box-sizing: border-box;
@@ -236,20 +236,20 @@
 		}
 		
 	</style>
-	<script src="/git/Enjoyeat/Public/Js/jquery.min.js"></script>
+	<script src="/1/gg/XDLProject/Enjoyeat/Public/Js/jquery.min.js"></script>
 </head>
 <body>
 	<div class="container">
         <!-- ngIf: !noGlobalWrap -->
       	<header class="account-header ng-scope" ng-if="!noGlobalWrap">
 			<a href="http://www.ele.me">
-				<img src="/git/Enjoyeat/Public/Home/images/logo.png" alt="">
+				<img src="/1/gg/XDLProject/Enjoyeat/Public/Home/images/logo.png" alt="">
 			</a>
 		</header>
         <!-- ngView:  -->
         <div ng-view="" class="account-container ng-scope">
             <div class="login ng-scope">
-                <img src="/git/Enjoyeat/Public/Home/images/login_img.png" class="account-illustration"> <!-- ngInclude:  -->
+                <img src="/1/gg/XDLProject/Enjoyeat/Public/Home/images/login_img.png" class="account-illustration"> <!-- ngInclude:  -->
                 <div src="'/app/templates/_login_main.tpl.html'" ng-include="" class="account-main aside ng-scope">
                     <div class="account-line ng-scope">
                         <h3 class="account-title line-left" style="display:inline">登录</h3>

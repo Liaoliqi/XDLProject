@@ -271,13 +271,13 @@
 		    width: 100%;
 		}
 	</style>
-	<script src="/git/Enjoyeat/Public/Js/jquery.min.js"></script>
+	<script src="/1/gg/XDLProject/Enjoyeat/Public/Js/jquery.min.js"></script>
 </head>
 <body>
 	<div ng-class="{container: !noGlobalWrap}" class="container">
 		<!-- ngIf: !noGlobalWrap --><header ng-if="!noGlobalWrap" class="account-header ng-scope">
 		<a href="http://www.ele.me">
-		<h1 class="logo icon icon-fulllogo"><img src="/git/Enjoyeat/Public/home/images/logo.png"></h1>
+		<h1 class="logo icon icon-fulllogo"><img src="/1/gg/XDLProject/Enjoyeat/Public/home/images/logo.png"></h1>
 		</a>
 		</header><!-- end ngIf: !noGlobalWrap -->
 		<!-- ngView:  -->

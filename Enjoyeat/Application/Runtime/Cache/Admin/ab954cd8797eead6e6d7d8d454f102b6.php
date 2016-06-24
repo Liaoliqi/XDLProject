@@ -240,7 +240,7 @@
                         
                     </ul>
                     <!--breadcrumbs end -->
-                    <h1 class="h1">商家列表信息</h1>
+                    <h1 class="h1">加盟商家审核</h1>
                 </div>
             </div>
 
@@ -248,90 +248,74 @@
                 <div class="col-md-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Data Tables</h3>
+                            <h3 class="panel-title">审核信息</h3>
                             <div class="actions pull-right">
-                                <i class="fa fa-chevron-down"></i>
-                                <i class="fa fa-times"></i>
+                                <i class="fa fa-chevron-down">缩进页面</i>
+                                <i class="fa fa-times">关闭页面</i>
                             </div>
                         </div>
-                        <div class="panel-body">
-                            <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
-                                <thead>
-                                    <tr>
-                                        <th>编号</th>
-                                        <th>商店名称</th>
-                                        <th>商店分类</th>
-                                        <th>地址</th>
-                                        <th>法人</th>
-                                        <th>省份证号</th>
-                                        <th>详情信息</th>
-                                    </tr>
-                                </thead>
-
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>沙县小吃</td>
-                                        <td>海鲜类</td>
-                                        <td>铜锣湾</td>
-                                        <td>戴聪敏</td>
-                                        <td>350322199429367654</td>
-                                        <td><a href="" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">点击详情</a></td>
-
-
-                                    </tr>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>沙县小吃</td>
-                                        <td>鲨鱼类</td>
-                                        <td>铜锣湾</td>
-                                        <td>黄撸撸</td>
-                                        <td>350322199429367654</td>
-                                        <td><a href="" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">点击详情</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>沙县小吃</td>
-                                        <td>螃蟹类</td>
-                                        <td>红磡</td>
-                                        <td>九九</td>
-                                        <td>350322199429367654</td>
-                                        <td><a href="" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">点击详情</a></td>
-                                    </tr>
-                                </tbody>
-                                <!-- Modal -->
-                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                      <div class="modal-dialog">
-                                        <div class="modal-content">
-                                          <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title" id="myModalLabel">商家详情</h4>
-                                          </div>
-                                          <div class="modal-body">
-                                            <div class="containter">
-                                                <div class="row">
-                                                    <div class="col-md-6">店铺名称</div>
-                                                    <div class="col-md-6"><img width="50px" height="80px" src="/1/gg/XDLProject/Enjoyeat/Public/Admin/IMG_2907.jpg" alt=""></div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-md-6">店铺公告</div>
-                                                    <div class="col-md-6">法人</div>
-                                                 
-                                                </div>
-                                                <p>店家没人~~</p>
-                                                <p>随便抢~~</p>
-                                            </div>
-                                          </div>
-                                          <div class="modal-footer">
-                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
-                                          </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">审核标准</h3>
+                                        <div class="actions pull-right">
+                                            <i class="fa fa-chevron-down"></i>
+                                            <i class="fa fa-times"></i>
                                         </div>
-                                      </div>
                                     </div>
-                            </table>
-
+                                    <div class="panel-body">
+                                        <p>Elit vitae, ridiculus nonummy, vestibulum vivamus cras scelerisque velit magna tincidunt. Torquent amet accumsan, eu maecenas morbi dui eu suspendisse, neque diam accumsan cras nisl ac ridiculus, erat neque. Wisi enim ullamcorper, dolor eleifend pellentesque, ut nulla libero ante laboriosam elit in, orci nec vitae viverra amet tempor, ut vivamus nec nec tristique. Vitae in suscipit, aliquam turpis, quis risus tortor, sit in ultricies urna sed leo. Non eu imperdiet vitae placerat, donec magna, metus integer imperdiet purus, sed eu. In vehicula fusce est neque, justo nam leo nascetur consectetuer a, nec dolor sit ut quam, in suspendisse ridiculus vitae</p>
+                                    </div>
+                                    <div class="panel-footer">Panel footer</div>
+                                </div>
+                            </div>
                         </div>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="panel panel-solid-info">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">商家资料</h3>
+                                        <div class="actions pull-right">
+                                            <i class="fa fa-chevron-down"></i>
+                                            <i class="fa fa-times"></i>
+                                        </div>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>fdfdfdfdfd</p>
+                                    </div>
+                                    <div class="panel-footer">Panel footer</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="panel panel-solid-success">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">店铺信息</h3>
+                                        <div class="actions pull-right">
+                                            <i class="fa fa-chevron-down"></i>
+                                            <i class="fa fa-times"></i>
+                                        </div>
+                                    </div>
+                                    <div class="panel-body">
+                                        Elit vitae, ridiculus nonummy, vestibulum vivamus cras scelerisque velit magna tincidunt. Torquent amet accumsan, eu maecenas morbi dui eu suspendisse, neque diam accumsan cras nisl ac ridiculus, erat neque. Wisi enim ullamcorper, dolor eleifend pellentesque,
+                                    </div>
+                                    <div class="panel-footer">Panel footer</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                 <button type="button" class="btn btn-success">Success</button>
+                            </div>
+                             <div class="col-md-6">
+                                 <button type="button" class="btn btn-danger">danger</button>
+                             </div>
+                                
+                        </div>
+
+
                     </div>
                 </div>
             </div>

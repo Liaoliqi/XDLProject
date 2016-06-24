@@ -68,3 +68,25 @@ INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 SQL: SHOW COLUMNS FROM `enjoyeat_user_login` [ RunTime:0.0030s ]
 SQL: SELECT * FROM `enjoyeat_user_login` WHERE ( `username`='18020225275@163.com' or `email`='18020225275@163.com' ) LIMIT 1   [ RunTime:0.0020s ]
 
+[ 2016-06-23T23:14:11+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=99&password=123456&vcode=tim
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `enjoyeat_user_login` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `enjoyeat_user_login` WHERE ( `username`='99' or `email`='99' ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-06-23T23:15:01+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/sendMail?email=932232937%40qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-23T23:15:52+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=932232937@qq.com&password=123456&vcode=viy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `enjoyeat_user_login` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `enjoyeat_user_login` WHERE ( `username`='932232937@qq.com' or `email`='932232937@qq.com' ) LIMIT 1   [ RunTime:0.0020s ]
+
