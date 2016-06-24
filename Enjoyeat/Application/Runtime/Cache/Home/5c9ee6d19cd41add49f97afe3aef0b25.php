@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title><?php echo ($title); ?></title>
-	<link rel="icon" href="/git/Enjoyeat/Public/Home/Images/favicon1.png" size="64x64" type="image/png">
+	<link rel="icon" href="/git/Enjoyeat/Public/Home/Images/favicon.png" size="48x48" type="image/png">
 	<link rel="stylesheet" href="/git/Enjoyeat/Public/assets/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/git/Enjoyeat/Public/assets/css/font-awesome.min.css">
 	<script src="/git/Enjoyeat/Public/assets/js/jquery-1.10.2.min.js"></script>
