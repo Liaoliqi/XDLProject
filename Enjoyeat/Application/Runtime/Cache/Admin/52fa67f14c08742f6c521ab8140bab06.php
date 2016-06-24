@@ -142,7 +142,7 @@
                     </li>
                     <li class="dropdown settings">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                      <?php echo ($_SESSION['user_info']['username']); ?> <i class="fa fa-angle-down"></i>
+                      <?php echo ($_SESSION['user_info']['password']); ?> <i class="fa fa-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu animated fadeInDown">
                             <li>
@@ -194,7 +194,7 @@
                             </li>
                             <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='checkshop')?"class='active'":"")?>><a href="<?php echo U('Shop/checkshop');?>">商家审核</a>
                             </li>
-                            <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='categoryList')?"class='active'":"")?>><a href="<?php echo U('Shop/categoryList');?>">商家审核</a>
+                            <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='categoryList')?"class='active'":"")?>><a href="<?php echo U('Shop/categoryList');?>">商家分类</a>
                             </li>
                         </ul>
                     </li>

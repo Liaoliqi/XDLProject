@@ -1,0 +1,132 @@
+[ 2016-06-24T15:22:38+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/register/login
+ERR: 非法操作:login
+
+[ 2016-06-24T16:47:57+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=dfdf&password=df&vcode=d
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-24T16:48:01+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=dfdf&password=df&vcode=d
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-24T16:48:05+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=dfdf&password=df&vcode=ere
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-24T16:48:05+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=dfdf&password=df&vcode=ere
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-24T16:48:08+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=dfdf&password=df&vcode=erer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-24T16:48:12+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=dfdf&password=df&vcode=3red
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-24T16:48:15+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=dfdf&password=df&vcode=df
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-24T16:48:17+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=dfdf&password=df&vcode=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-24T16:48:19+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=dfdf&password=df&vcode=gg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-24T16:48:21+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=dfdf&password=df&vcode=vv
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-24T16:48:23+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=dfdf&password=df&vcode=vv
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-24T16:48:25+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=dfdf&password=df&vcode=efr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-24T17:01:51+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition= $_SESSION['HOME']==null
+
+[ 2016-06-24T17:01:51+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition= $_SESSION['HOME']==null
+
+[ 2016-06-24T17:01:51+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition= $_SESSION['HOME']==null
+
+[ 2016-06-24T17:05:47+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition= <{:I('session.HOME.uid')}
+
+[ 2016-06-24T17:05:48+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition= <{:I('session.HOME.uid')}
+
+[ 2016-06-24T17:05:56+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition= <{:I('session.HOME.uid')==null}
+
+[ 2016-06-24T17:06:10+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition= <{:I('session.HOME.uid')==null}
+
+[ 2016-06-24T17:06:29+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition= <{:I('session.HOME.uid')==null}
+
+[ 2016-06-24T17:06:42+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition= <{I('session.HOME.uid')==null}
+
+[ 2016-06-24T17:06:43+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition= <{I('session.HOME.uid')==null}
+
+[ 2016-06-24T17:09:16+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition="<{I('session.HOME.uid') eq null "}
+
+[ 2016-06-24T17:09:17+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition="<{I('session.HOME.uid') eq null "}
+
+[ 2016-06-24T17:09:26+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition=<{I('session.HOME.uid') eq null }
+
+[ 2016-06-24T17:09:27+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition=<{I('session.HOME.uid') eq null }
+
+[ 2016-06-24T17:10:03+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition=<{I('session.HOME.uid') eq null }
+
+[ 2016-06-24T17:10:03+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/home/
+ERR: XML标签语法错误 : condition=<{I('session.HOME.uid') eq null }
+
+[ 2016-06-24T17:15:05+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=18020225275@163.com&password=123456&vcode=ksk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `enjoyeat_user_login` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `enjoyeat_user_login` WHERE ( `username`='18020225275@163.com' or `email`='18020225275@163.com' ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-06-24T17:18:20+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=admin&password=123456&vcode=wpf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `enjoyeat_user_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `enjoyeat_user_login` WHERE ( `username`='admin' or `email`='admin' ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-06-24T17:54:33+08:00 ] ::1 /1/gg/XDLProject/Enjoyeat/Home/User/doLogin?username=18020225275@163.com&password=123456&vcode=xxj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `enjoyeat_user_login` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `enjoyeat_user_login` WHERE ( `username`='18020225275@163.com' or `email`='18020225275@163.com' ) LIMIT 1   [ RunTime:0.0020s ]
+

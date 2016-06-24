@@ -664,7 +664,23 @@
       <div class="container">
         <div class="map-header clearfix" map-header="">
           <h1><a ubt-click="1433" href="/"><img src="/1/gg/XDLProject/Enjoyeat/Public/home/images/tips.png"></a></h1>
-          <!-- ngIf: user.user_id --><!-- ngIf: !user.user_id --><span ng-if="!user.user_id" class="map-header-right ng-scope"><a ubt-click="1430" target="_blank" ng-href="https://account.ele.me/register" href="<?php echo U('User/register');?>">注册</a><span> | </span><a ubt-click="1431" ng-href="https://account.ele.me/login" href="<?php echo U('User/login');?>">登录</a><a ubt-click="1432" target="_blank" href="http://kaidian.ele.me" class="btn-security btn-sm">我要开店</a></span><!-- end ngIf: !user.user_id -->
+          <!-- ngIf: user.user_id --><!-- ngIf: !user.user_id --><span ng-if="!user.user_id" class="map-header-right ng-scope">
+            
+        <?php if(empty($_SESSION['home']['uid'])): ?><a ubt-click="1430" target="_blank" ng-href="" href="<?php echo U('User/register');?>">注册</a>
+          <span> | </span>
+
+          <a ubt-click="1431" ng-href="" href="<?php echo U('User/login');?>">登入</a>
+
+        <?php else: ?>
+
+            <a ubt-click="1430" target="_blank" ng-href="" href="<?php echo U('User/register');?>"><img src="dfd" alt=""></a>
+          <span> | </span>
+
+          <a ubt-click="1431" ng-href="" href="<?php echo U('User/login');?>"><?=$_SESSION['home']['username'] ?></a><?php endif; ?>
+
+          
+
+          <a ubt-click="1432" target="_blank" href="http://kaidian.ele.me" class="btn-security btn-sm">我要开店</a></span><!-- end ngIf: !user.user_id -->
         </div>
         <div ng-class="{mapmode: mapMode}" class="map-main ng-isolate-scope" map-mode="mapMode" map-main="">
           <h2 class="map-logo"><img src="/1/gg/XDLProject/Enjoyeat/Public/home/images/logo.png"></h2>

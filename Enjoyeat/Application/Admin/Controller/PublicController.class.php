@@ -53,7 +53,10 @@ class PublicController extends Controller{
 		}
 
 		//回话开始
+		unset($data['password']);
 		$_SESSION['user_info']=$data;
+
+
 
 		//成功后跳转首页
 

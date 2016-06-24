@@ -115,7 +115,11 @@ class UserController extends HomeController {
         
         $_SESSION['home']['uid'] = $search['id'];
         $_SESSION['home']['username'] = $search['username'];
-        $this->ajaxReturn('success');       
+        $this->ajaxReturn('success');    
+
+
+        
+
     }
 
     public function selectAddress(){
@@ -137,6 +141,26 @@ class UserController extends HomeController {
         $this->assign('title','我的收藏店铺');
         $this->display();
     }  
+
+
+
+
+
+
+
+
+
+
+    public function grzl(){
+        $this->display();
+    }  
+
+    //修改密码
+    public function repwd()
+    {
+       
+
+    }
 
 
 }
