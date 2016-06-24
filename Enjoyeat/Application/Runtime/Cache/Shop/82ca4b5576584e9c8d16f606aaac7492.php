@@ -13,31 +13,31 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/dev/XDLProject/Enjoyeat/Public/Assets/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/1/gg/XDLProject/Enjoyeat/Public/Assets/img/favicon.ico" type="image/x-icon">
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Fonts from Font Awsome -->
-    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/Assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/Assets/css/font-awesome.min.css">
     <!-- CSS Animate -->
-    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/Assets/css/animate.css">
+    <link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/Assets/css/animate.css">
     <!-- Custom styles for this theme -->
-    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/Assets/css/main.css">
-    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/Assets/css/my.css">
+    <link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/Assets/css/main.css">
+    <link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/Assets/css/my.css">
     <!-- Vector Map  -->
-    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/jvectormap/css/jquery-jvectormap-1.2.2.css">
+    <link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/jvectormap/css/jquery-jvectormap-1.2.2.css">
     <!-- ToDos  -->
-    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/todo/css/todos.css">
+    <link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/todo/css/todos.css">
     <!-- Morris  -->
-    <link rel="stylesheet" href="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/morris/css/morris.css">
+    <link rel="stylesheet" href="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/morris/css/morris.css">
     <!-- Fonts -->
     <!-- <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'> -->
     <!-- Feature detection -->
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/js/modernizr-2.6.2.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/js/modernizr-2.6.2.min.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/js/html5shiv.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/js/respond.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/js/html5shiv.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/js/respond.min.js"></script>
     <![endif]-->
     
     
@@ -72,7 +72,7 @@
                             <li>
                                 <a href="#">
                                     <div class="profile-photo">
-                                        <img src="/dev/XDLProject/Enjoyeat/Public/Assets/img/avatar.gif" alt="" class="img-circle">
+                                        <img src="/1/gg/XDLProject/Enjoyeat/Public/Assets/img/avatar.gif" alt="" class="img-circle">
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">James Bagian</span>
@@ -85,7 +85,7 @@
                             <li>
                                 <a href="#">
                                     <div class="profile-photo">
-                                        <img src="/dev/XDLProject/Enjoyeat/Public/Assets/img/avatar1.gif" alt="" class="img-circle">
+                                        <img src="/1/gg/XDLProject/Enjoyeat/Public/Assets/img/avatar1.gif" alt="" class="img-circle">
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">Jeffrey Ashby</span>
@@ -98,7 +98,7 @@
                             <li>
                                 <a href="#">
                                     <div class="profile-photo">
-                                        <img src="/dev/XDLProject/Enjoyeat/Public/Assets/img/avatar2.gif" alt="" class="img-circle">
+                                        <img src="/1/gg/XDLProject/Enjoyeat/Public/Assets/img/avatar2.gif" alt="" class="img-circle">
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">John Douey</span>
@@ -111,7 +111,7 @@
                             <li>
                                 <a href="#">
                                     <div class="profile-photo">
-                                        <img src="/dev/XDLProject/Enjoyeat/Public/Assets/img/avatar3.gif" alt="" class="img-circle">
+                                        <img src="/1/gg/XDLProject/Enjoyeat/Public/Assets/img/avatar3.gif" alt="" class="img-circle">
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">Ellen Baker</span>
@@ -123,7 +123,7 @@
                             <li>
                                 <a href="#">
                                     <div class="profile-photo">
-                                        <img src="/dev/XDLProject/Enjoyeat/Public/Assets/img/avatar4.gif" alt="" class="img-circle">
+                                        <img src="/1/gg/XDLProject/Enjoyeat/Public/Assets/img/avatar4.gif" alt="" class="img-circle">
                                     </div>
                                     <div class="message-info">
                                         <span class="sender">Ivan Bella</span>
@@ -138,7 +138,7 @@
 
                     </li>
                     <li class="profile-photo">
-                        <img src="/dev/XDLProject/Enjoyeat/Public/Assets/img/avatar.png" alt="" class="img-circle">
+                        <img src="/1/gg/XDLProject/Enjoyeat/Public/Assets/img/avatar.png" alt="" class="img-circle">
                     </li>
                     <li class="dropdown settings">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -234,41 +234,41 @@
         <!--main content end-->
     </section>
     <!--Global JS-->
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/js/jquery-1.10.2.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/waypoints/waypoints.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/js/application.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/js/jquery-1.10.2.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/waypoints/waypoints.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/js/application.js"></script>
     <!--Page Level JS-->
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/countTo/jquery.countTo.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/weather/js/skycons.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/countTo/jquery.countTo.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/weather/js/skycons.js"></script>
     <!-- FlotCharts  -->
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.resize.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.canvas.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.image.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.categories.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.crosshair.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.errorbars.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.fillbetween.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.navigate.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.pie.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.selection.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.stack.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.symbol.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.threshold.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.colorhelpers.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.time.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.example.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/Chart.bundle.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.resize.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.canvas.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.image.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.categories.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.crosshair.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.errorbars.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.fillbetween.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.navigate.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.pie.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.selection.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.stack.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.symbol.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.threshold.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.colorhelpers.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.time.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/jquery.flot.example.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/flot/js/Chart.bundle.js"></script>
 
     <!-- Morris  -->
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/morris/js/morris.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/morris/js/raphael.2.1.0.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/morris/js/morris.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/morris/js/raphael.2.1.0.min.js"></script>
     <!-- Vector Map  -->
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/jvectormap/js/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/jvectormap/js/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/jvectormap/js/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/jvectormap/js/jquery-jvectormap-world-mill-en.js"></script>
     <!-- ToDo List  -->
-    <script src="/dev/XDLProject/Enjoyeat/Public/Assets/plugins/todo/js/todos.js"></script>
+    <script src="/1/gg/XDLProject/Enjoyeat/Public/Assets/plugins/todo/js/todos.js"></script>
     
     
     <!--Load these page level functions-->

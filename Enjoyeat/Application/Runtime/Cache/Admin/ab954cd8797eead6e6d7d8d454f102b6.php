@@ -222,6 +222,19 @@
                             </li>
                         </ul>
                     </li>
+                    <li class="sub-menu">
+                        <a href=""><i class="fa fa-envelope"></i><span>权限控制</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+                        <ul <?=(CONTROLLER_NAME == 'Access' ? "style='display:block'" : "")?>>
+                            
+                            <li <?=(CONTROLLER_NAME == 'Access' && ACTION_NAME == 'changeRole' ? "class='active'" : "")?>>
+                                <a href="<?php echo U('Access/changeRole');?>">用户角色</a>
+                            </li>
+                            
+                            <li <?=(CONTROLLER_NAME == 'Access' && ACTION_NAME == 'customers' ? "class='active'" : "")?>>
+                                <a href="<?php echo U('Access/customers');?>">角色配置</a>
+                            </li>
+                        </ul>
+                    </li>
                     
                 </ul>
             </div>
@@ -298,7 +311,7 @@
                                         </div>
                                     </div>
                                     <div class="panel-body">
-                                        Elit vitae, ridiculus nonummy, vestibulum vivamus cras scelerisque velit magna tincidunt. Torquent amet accumsan, eu maecenas morbi dui eu suspendisse, neque diam accumsan cras nisl ac ridiculus, erat neque. Wisi enim ullamcorper, dolor eleifend pellentesque,
+                                        <p>fdfdfdfdf</p>
                                     </div>
                                     <div class="panel-footer">Panel footer</div>
                                 </div>
@@ -306,10 +319,13 @@
                         </div>
                         <div class="row"></div>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-8">
+                                <p>申请商家留言：</p>
+                            </div>
+                            <div class="col-md-2">
                                  <button type="button" class="btn btn-success">Success</button>
                             </div>
-                             <div class="col-md-6">
+                             <div class="col-md-2">
                                  <button type="button" class="btn btn-danger">danger</button>
                              </div>
                                 

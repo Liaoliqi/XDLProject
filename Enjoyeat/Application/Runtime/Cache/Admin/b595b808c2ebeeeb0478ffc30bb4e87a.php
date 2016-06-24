@@ -192,7 +192,7 @@
                         <ul <?=((CONTROLLER_NAME == 'Shop')?"style='display:block'":"")?>>
                             <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='index')?"class='active'":"")?>><a href="<?php echo U('Shop/index');?>">商家列表</a>
                             </li>
-                            <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='categoryList')?"class='active'":"")?>><a href="<?php echo U('Shop/categoryList');?>">分类列表</a>
+                            <li <?=((CONTROLLER_NAME == 'Shop' && ACTION_NAME =='categoryList')?"class='active'":"")?>><a href="<?php echo U('Shop/checkshop');?>">商家审核</a>
                             </li>
                         </ul>
                     </li>
@@ -219,6 +219,19 @@
                             
                             <li <?=(CONTROLLER_NAME == 'Statistics' && ACTION_NAME == 'shops' ? "class='active'" : "")?>>
                                 <a href="<?php echo U('Statistics/shops');?>">商家统计</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-menu">
+                        <a href=""><i class="fa fa-envelope"></i><span>权限控制</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+                        <ul <?=(CONTROLLER_NAME == 'Access' ? "style='display:block'" : "")?>>
+                            
+                            <li <?=(CONTROLLER_NAME == 'Access' && ACTION_NAME == 'changeRole' ? "class='active'" : "")?>>
+                                <a href="<?php echo U('Access/changeRole');?>">用户角色</a>
+                            </li>
+                            
+                            <li <?=(CONTROLLER_NAME == 'Access' && ACTION_NAME == 'customers' ? "class='active'" : "")?>>
+                                <a href="<?php echo U('Access/customers');?>">角色配置</a>
                             </li>
                         </ul>
                     </li>
