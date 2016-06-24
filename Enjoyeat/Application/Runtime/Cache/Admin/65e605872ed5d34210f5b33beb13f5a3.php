@@ -286,7 +286,7 @@
                                     <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                                         <td><?php  echo $i++ ?></td>
                                         <td><?php echo ($vo["username"]); ?></td>
-                                        <td><img width="25" src="/1/gg/XDLProject/Enjoyeat/Public/Images/<?php echo ($vo["avatar"]); ?>" alt=""></td>
+                                        <td><img width="25" src="/1/gg/XDLProject/Enjoyeat/Public/<?php echo ($vo["avatar"]); ?>" alt=""></td>
                                         <td><?php echo ($vo["email"]); ?></td>
                                         <td>1234567876543</td>
                                         <td><?php echo ($vo["point"]); ?></td>

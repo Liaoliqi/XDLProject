@@ -22,7 +22,11 @@ class UserController extends HomeController {
 
 
     public function index(){
-       
+       /* if(isset($_SESSION['home']['uid'])){
+            $user = M('user_info');
+            $data = $user->where('id='.$_SESSION['home']['uid'])->find();
+            $this->assign('data',$data);
+        }*/
         $this->display();
     }
 

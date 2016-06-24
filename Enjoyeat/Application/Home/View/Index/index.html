@@ -668,16 +668,15 @@
             
         <empty name='Think.session.home.uid'>
             <a ubt-click="1430" target="_blank" ng-href="" href="<{:U('User/register')}>">注册</a>
-          <span> | </span>
 
+          <span> | </span>
           <a ubt-click="1431" ng-href="" href="<{:U('User/login')}>">登入</a>
 
         <else />
 
-            <a ubt-click="1430" target="_blank" ng-href="" href="<{:U('User/register')}>"><img src="dfd" alt=""></a>
-          <span> | </span>
+            <a ubt-click="1430" target="_blank" ng-href="" href="<{:U('User/register')}>"><img src="__PUBLIC__/<{$avatar}>" width="35px" style="line-height:35px;display:block;float:left;margin-top:10px;margin-right:15px;border-radius:50%"> </a>
 
-          <a ubt-click="1431" ng-href="" href="<{:U('User/login')}>"><?=$_SESSION['home']['username'] ?></a>
+          <a ubt-click="1431" ng-href="" style="font-size:20px" href="<{:U('User/login')}>"><?=$_SESSION['home']['username'] ?></a>
 
         </empty>
 

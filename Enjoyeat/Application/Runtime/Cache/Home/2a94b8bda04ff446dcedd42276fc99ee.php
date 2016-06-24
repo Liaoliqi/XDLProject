@@ -667,16 +667,15 @@
           <!-- ngIf: user.user_id --><!-- ngIf: !user.user_id --><span ng-if="!user.user_id" class="map-header-right ng-scope">
             
         <?php if(empty($_SESSION['home']['uid'])): ?><a ubt-click="1430" target="_blank" ng-href="" href="<?php echo U('User/register');?>">注册</a>
-          <span> | </span>
 
+          <span> | </span>
           <a ubt-click="1431" ng-href="" href="<?php echo U('User/login');?>">登入</a>
 
         <?php else: ?>
 
-            <a ubt-click="1430" target="_blank" ng-href="" href="<?php echo U('User/register');?>"><img src="dfd" alt=""></a>
-          <span> | </span>
+            <a ubt-click="1430" target="_blank" ng-href="" href="<?php echo U('User/register');?>"><img src="/1/gg/XDLProject/Enjoyeat/Public/<?php echo ($avatar); ?>" width="35px" style="line-height:35px;display:block;float:left;margin-top:10px;margin-right:15px;border-radius:50%"> </a>
 
-          <a ubt-click="1431" ng-href="" href="<?php echo U('User/login');?>"><?=$_SESSION['home']['username'] ?></a><?php endif; ?>
+          <a ubt-click="1431" ng-href="" style="font-size:20px" href="<?php echo U('User/login');?>"><?=$_SESSION['home']['username'] ?></a><?php endif; ?>
 
           
 
